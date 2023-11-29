@@ -1,0 +1,36 @@
+[0.120s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/xcy/ros2_ws/src/cpp_topic -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/xcy/ros2_ws/install/cpp_topic
+[0.133s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.150s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.292s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.318s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.321s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.405s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.446s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.447s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.571s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.607s] CMake Error at /usr/share/genmsg/cmake/genmsg-extras.cmake:9 (find_package):
+[0.607s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.607s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.607s]   CMake did not find one.
+[0.607s] 
+[0.607s]   Could not find a package configuration file provided by "catkin" with any
+[0.607s]   of the following names:
+[0.607s] 
+[0.607s]     catkinConfig.cmake
+[0.607s]     catkin-config.cmake
+[0.607s] 
+[0.608s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.608s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.608s]   provides a separate development package or SDK, be sure it has been
+[0.608s]   installed.
+[0.608s] Call Stack (most recent call first):
+[0.608s]   /usr/share/genmsg/cmake/genmsgConfig.cmake:220 (include)
+[0.608s]   /usr/share/gencpp/cmake/gencppConfig.cmake:195 (find_package)
+[0.608s]   /usr/share/message_generation/cmake/message_generationConfig.cmake:195 (find_package)
+[0.608s]   CMakeLists.txt:13 (find_package)
+[0.608s] 
+[0.608s] 
+[0.608s] -- Configuring incomplete, errors occurred!
+[0.608s] See also "/home/xcy/ros2_ws/build/cpp_topic/CMakeFiles/CMakeOutput.log".
+[0.608s] See also "/home/xcy/ros2_ws/build/cpp_topic/CMakeFiles/CMakeError.log".
+[0.614s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/xcy/ros2_ws/src/cpp_topic -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/xcy/ros2_ws/install/cpp_topic

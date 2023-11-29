@@ -84,6 +84,10 @@ cpp_sub_spiral: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
 cpp_sub_spiral: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 cpp_sub_spiral: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 cpp_sub_spiral: /opt/ros/foxy/lib/librclcpp.so
+cpp_sub_spiral: /home/xcy/ros2_ws3/install/onix_backend_messages/lib/libonix_backend_messages__rosidl_typesupport_introspection_c.so
+cpp_sub_spiral: /home/xcy/ros2_ws3/install/onix_backend_messages/lib/libonix_backend_messages__rosidl_typesupport_c.so
+cpp_sub_spiral: /home/xcy/ros2_ws3/install/onix_backend_messages/lib/libonix_backend_messages__rosidl_typesupport_introspection_cpp.so
+cpp_sub_spiral: /home/xcy/ros2_ws3/install/onix_backend_messages/lib/libonix_backend_messages__rosidl_typesupport_cpp.so
 cpp_sub_spiral: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
 cpp_sub_spiral: /opt/ros/foxy/lib/liblibstatistics_collector.so
 cpp_sub_spiral: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
@@ -122,15 +126,16 @@ cpp_sub_spiral: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_intr
 cpp_sub_spiral: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 cpp_sub_spiral: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 cpp_sub_spiral: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+cpp_sub_spiral: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+cpp_sub_spiral: /opt/ros/foxy/lib/libtracetools.so
+cpp_sub_spiral: /home/xcy/ros2_ws3/install/onix_backend_messages/lib/libonix_backend_messages__rosidl_generator_c.so
 cpp_sub_spiral: /opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so
 cpp_sub_spiral: /opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so
-cpp_sub_spiral: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 cpp_sub_spiral: /opt/ros/foxy/lib/librosidl_typesupport_cpp.so
 cpp_sub_spiral: /opt/ros/foxy/lib/librosidl_typesupport_c.so
 cpp_sub_spiral: /opt/ros/foxy/lib/librosidl_runtime_c.so
 cpp_sub_spiral: /opt/ros/foxy/lib/librcpputils.so
 cpp_sub_spiral: /opt/ros/foxy/lib/librcutils.so
-cpp_sub_spiral: /opt/ros/foxy/lib/libtracetools.so
 cpp_sub_spiral: CMakeFiles/cpp_sub_spiral.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xcy/ros2_ws/build/cpp_topic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpp_sub_spiral"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp_sub_spiral.dir/link.txt --verbose=$(VERBOSE)

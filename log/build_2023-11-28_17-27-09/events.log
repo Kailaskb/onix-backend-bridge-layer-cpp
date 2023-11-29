@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.000613] (cpp_topic) JobQueued: {'identifier': 'cpp_topic', 'dependencies': OrderedDict()}
+[0.000819] (cpp_topic) JobStarted: {'identifier': 'cpp_topic'}
+[0.100275] (-) TimerEvent: {}
+[0.177203] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'cmake'}
+[0.178539] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'build'}
+[0.178625] (cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xcy/ros2_ws/build/cpp_topic', '--', '-j8', '-l8'], 'cwd': '/home/xcy/ros2_ws/build/cpp_topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xcy'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1148'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xcy/ros2_ws3/install/onix_backend_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xcy'), ('OLDPWD', '/home/xcy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_DOMAIN_IeD', '1'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '914'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/xcy/ros2_ws/install:/home/xcy/ros2_ws3/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xcy'), ('JOURNAL_STREAM', '8:36657'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xcy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/xcy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xcy-Default-string:@/tmp/.ICE-unix/1187,unix/xcy-Default-string:/tmp/.ICE-unix/1187'), ('INVOCATION_ID', 'f10f60c168bc435a9892e4085bf22182'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4d44bcf2_d09d_4b57_ad1f_2024c0eacc9f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xcy/ros2_ws3/install/py_topic:/home/xcy/ros2_ws3/install/onix_backend_messages:/home/xcy/ros2_ws/install/cpp_topic:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xcy/ros2_ws/build/cpp_topic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xcy/ros2_ws3/install/py_topic/lib/python3.8/site-packages:/home/xcy/ros2_ws3/install/onix_backend_messages/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/xcy/ros2_ws3/install/onix_backend_messages:/home/xcy/ros2_ws/install/cpp_topic:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy')]), 'shell': False}
+[0.200426] (-) TimerEvent: {}
+[0.216053] (cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_sub_spiral\x1b[0m\n'}
+[0.234030] (cpp_topic) StdoutLine: {'line': b'[ 50%] Built target cpp_pub_spiral\n'}
+[0.241902] (cpp_topic) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o\x1b[0m\n'}
+[0.300566] (-) TimerEvent: {}
+[0.400951] (-) TimerEvent: {}
+[0.501277] (-) TimerEvent: {}
+[0.601584] (-) TimerEvent: {}
+[0.701900] (-) TimerEvent: {}
+[0.802283] (-) TimerEvent: {}
+[0.902627] (-) TimerEvent: {}
+[1.002947] (-) TimerEvent: {}
+[1.103303] (-) TimerEvent: {}
+[1.203647] (-) TimerEvent: {}
+[1.304000] (-) TimerEvent: {}
+[1.404401] (-) TimerEvent: {}
+[1.504750] (-) TimerEvent: {}
+[1.602553] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback(onix_backend_messages::msg::SystemConfig_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.603013] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:25:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstoll(onix_backend_messages::msg::SystemConfig_<std::allocator<void> >::_controller_voltage_type&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.603085] (cpp_topic) StderrLine: {'line': b'   25 |         status_data_msg_->controller_voltage = std::stoll(msg->controller_voltage\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.603141] (cpp_topic) StderrLine: {'line': b'      |                                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.603195] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[1.603246] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.603468] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[1.603536] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[1.603610] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.603673] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[1.603735] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:1\x1b[m\x1b[K:\n'}
+[1.603796] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6521:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Klong long int std::__cxx11::stoll(const string&, std::size_t*, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.603866] (cpp_topic) StderrLine: {'line': b' 6521 |   \x1b[01;36m\x1b[Kstoll\x1b[m\x1b[K(const string& __str, size_t* __idx = 0, int __base = 10)\n'}
+[1.603926] (cpp_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.603986] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6521:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Konix_backend_messages::msg::SystemConfig_<std::allocator<void> >::_controller_voltage_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.604053] (cpp_topic) StderrLine: {'line': b' 6521 |   stoll(\x1b[01;36m\x1b[Kconst string& __str\x1b[m\x1b[K, size_t* __idx = 0, int __base = 10)\n'}
+[1.604114] (cpp_topic) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.604175] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6627:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Klong long int std::__cxx11::stoll(const wstring&, std::size_t*, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.604267] (cpp_topic) StderrLine: {'line': b' 6627 |   \x1b[01;36m\x1b[Kstoll\x1b[m\x1b[K(const wstring& __str, size_t* __idx = 0, int __base = 10)\n'}
+[1.604328] (cpp_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.604388] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6627:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Konix_backend_messages::msg::SystemConfig_<std::allocator<void> >::_controller_voltage_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst wstring&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<wchar_t>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.604452] (cpp_topic) StderrLine: {'line': b' 6627 |   stoll(\x1b[01;36m\x1b[Kconst wstring& __str\x1b[m\x1b[K, size_t* __idx = 0, int __base = 10)\n'}
+[1.604512] (cpp_topic) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.604582] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:27:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstof(onix_backend_messages::msg::SystemConfig_<std::allocator<void> >::_controller_temp_type&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.604664] (cpp_topic) StderrLine: {'line': b'   27 |         status_data_msg_->controller_temp = std::stof(msg->controller_temp\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.604739] (cpp_topic) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.604809] (-) TimerEvent: {}
+[1.604953] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[1.605043] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.605128] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[1.605204] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[1.605280] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.605355] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[1.605436] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:1\x1b[m\x1b[K:\n'}
+[1.605512] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6532:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kfloat std::__cxx11::stof(const string&, std::size_t*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.605609] (cpp_topic) StderrLine: {'line': b' 6532 |   \x1b[01;36m\x1b[Kstof\x1b[m\x1b[K(const string& __str, size_t* __idx = 0)\n'}
+[1.605683] (cpp_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.605756] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6532:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Konix_backend_messages::msg::SystemConfig_<std::allocator<void> >::_controller_temp_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.605845] (cpp_topic) StderrLine: {'line': b' 6532 |   stof(\x1b[01;36m\x1b[Kconst string& __str\x1b[m\x1b[K, size_t* __idx = 0)\n'}
+[1.605919] (cpp_topic) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.605991] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6638:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kfloat std::__cxx11::stof(const wstring&, std::size_t*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.606065] (cpp_topic) StderrLine: {'line': b' 6638 |   \x1b[01;36m\x1b[Kstof\x1b[m\x1b[K(const wstring& __str, size_t* __idx = 0)\n'}
+[1.606137] (cpp_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.606210] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6638:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Konix_backend_messages::msg::SystemConfig_<std::allocator<void> >::_controller_temp_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst wstring&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<wchar_t>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.606288] (cpp_topic) StderrLine: {'line': b' 6638 |   stof(\x1b[01;36m\x1b[Kconst wstring& __str\x1b[m\x1b[K, size_t* __idx = 0)\n'}
+[1.606360] (cpp_topic) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.704958] (-) TimerEvent: {}
+[1.805319] (-) TimerEvent: {}
+[1.905658] (-) TimerEvent: {}
+[2.005994] (-) TimerEvent: {}
+[2.106337] (-) TimerEvent: {}
+[2.206676] (-) TimerEvent: {}
+[2.306996] (-) TimerEvent: {}
+[2.407308] (-) TimerEvent: {}
+[2.507655] (-) TimerEvent: {}
+[2.607991] (-) TimerEvent: {}
+[2.708335] (-) TimerEvent: {}
+[2.808735] (-) TimerEvent: {}
+[2.909066] (-) TimerEvent: {}
+[2.972059] (cpp_topic) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1\n'}
+[2.972368] (cpp_topic) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_sub_spiral.dir/all] Error 2\n'}
+[2.972471] (cpp_topic) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.974344] (cpp_topic) CommandEnded: {'returncode': 2}
+[3.010958] (-) TimerEvent: {}
+[3.111873] (-) TimerEvent: {}
+[3.159075] (cpp_topic) JobEnded: {'identifier': 'cpp_topic', 'rc': 2}
+[3.169475] (-) EventReactorShutdown: {}

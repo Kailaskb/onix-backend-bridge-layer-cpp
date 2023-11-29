@@ -1,40 +1,60 @@
-#include <chrono>
 #include <memory>
 #include "rclcpp/rclcpp.hpp"
-#include "geometry_msgs/msg/twist.hpp"
+#include "onix_backend_messages/msg/system_config.hpp"
+#include "onix_backend_messages/msg/status_data.hpp"
 
-using namespace std::chrono_literals;
-
-class MinimalPublisher : public rclcpp::Node
+class StatusDataPublisher : public rclcpp::Node
 {
-  public:
-    MinimalPublisher()
-    : Node("cpp_pub_spiral_node")
+public:
+    StatusDataPublisher()
+        : Node("status_data_publisher")
     {
-      publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 1);
-      i = 0.0;
-      timer_ = this->create_wall_timer(500ms, std::bind(&MinimalPublisher::publish_message, this));
+        // Create a subscription for SystemConfig messages
+        subscription_ = this->create_subscription<onix_backend_messages::msg::SystemConfig>(
+            "topic", 10, std::bind(&StatusDataPublisher::topic_callback, this, std::placeholders::_1));
+
+        // Create a publisher for StatusData messages
+        publisher_ = this->create_publisher<onix_backend_messages::msg::StatusData>("status_data", 10);
+
+        // Initialize the StatusData message
+        status_data_msg_ = std::make_shared<onix_backend_messages::msg::StatusData>();
     }
 
-  private:
-    void publish_message()
+private:
+    // Callback function for the subscription to SystemConfig
+    void topic_callback(const onix_backend_messages::msg::SystemConfig::SharedPtr msg)
     {
-      auto message = geometry_msgs::msg::Twist();
-      message.linear.x = 4.0; 
-      message.angular.z = 2.0 + i;
-      RCLCPP_INFO(this->get_logger(), "Sending - Linear Velocity : '%f', Angular Velocity : '%f'", message.linear.x, message.angular.z);
-      publisher_->publish(message);
-      i += 0.1; 
+        // Store received values in the StatusData message
+        status_data_msg_->mac_address = msg->mac_address;
+        status_data_msg_->time = msg->time;
+        status_data_msg_->controller_voltage = msg->controller_voltage;
+        status_data_msg_->total_time = std::stoll(msg->total_time);
+        status_data_msg_->controller_temp = msg->controller_temp;
+        status_data_msg_->ssid = msg->ssid;
+        status_data_msg_->rssi = std::stoll(msg->rssi);
+
+        // Add other fields as needed
+
+        // Log the received values (optional)
+        RCLCPP_INFO(this->get_logger(),
+                    "Received - mac_address: %s, time: %s, controller_voltage: %ld, total_time: %ld, controller_temp: %.2f, ssid: %s, rssi: %ld",
+                    msg->mac_address.c_str(), msg->time.c_str(), status_data_msg_->controller_voltage,
+                    status_data_msg_->total_time, status_data_msg_->controller_temp, msg->ssid.c_str(),
+                    status_data_msg_->rssi);
+
+        // Publish the received StatusData message
+        publisher_->publish(*status_data_msg_);
     }
-    rclcpp::TimerBase::SharedPtr timer_;
-    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
-    float i;
+
+    rclcpp::Subscription<onix_backend_messages::msg::SystemConfig>::SharedPtr subscription_;
+    rclcpp::Publisher<onix_backend_messages::msg::StatusData>::SharedPtr publisher_;
+    std::shared_ptr<onix_backend_messages::msg::StatusData> status_data_msg_;
 };
 
-int main(int argc, char * argv[])
+int main(int argc, char *argv[])
 {
-  rclcpp::init(argc, argv);
-  rclcpp::spin(std::make_shared<MinimalPublisher>());
-  rclcpp::shutdown();
-  return 0;
+    rclcpp::init(argc, argv);
+    rclcpp::spin(std::make_shared<StatusDataPublisher>());
+    rclcpp::shutdown();
+    return 0;
 }

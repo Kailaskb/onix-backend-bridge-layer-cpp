@@ -1,0 +1,18 @@
+CMake Error at CMakeLists.txt:16 (find_package):
+  By not providing "Findonix_backend_messages.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "onix_backend_messages", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "onix_backend_messages" with any of the following names:
+
+    onix_backend_messagesConfig.cmake
+    onix_backend_messages-config.cmake
+
+  Add the installation prefix of "onix_backend_messages" to CMAKE_PREFIX_PATH
+  or set "onix_backend_messages_DIR" to a directory containing one of the
+  above files.  If "onix_backend_messages" provides a separate development
+  package or SDK, be sure it has been installed.
+
+
+make: *** [Makefile:310: cmake_check_build_system] Error 1

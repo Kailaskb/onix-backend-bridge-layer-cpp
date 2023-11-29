@@ -1,0 +1,29 @@
+[35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[ 50%] Built target cpp_pub_spiral
+[ 75%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:2[m[K:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(onix_backend_messages::msg::SystemConfig_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:38:152:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator%[m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Konix_backend_messages::msg::StatusData_<std::allocator<void> >::_rssi_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+   38 |                     [32m[K'Received StatusData - mac_address: %s, time: %s, controller_voltage: %d, total_time: %d, controller_temp: %f, ssid: %s, rssi: %d'[m[K [01;31m[K%[m[K
+      |                     [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K
+      |                     [32m[K|[m[K
+      |                     [32m[Kint[m[K
+   39 |                        [34m[K(msg->mac_address, msg->time, status_data_msg_->controller_voltage, status_data_msg_->total_time,[m[K
+      |                        [34m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                
+   40 | [34m[K                        status_data_msg_->controller_temp, msg->ssid, status_data_msg_->rssi)[m[K)
+      |                         [34m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                           
+      |                                                                     [34m[K|[m[K
+      |                                                                     [34m[Konix_backend_messages::msg::StatusData_<std::allocator<void> >::_rssi_type {aka std::__cxx11::basic_string<char>}[m[K
+make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

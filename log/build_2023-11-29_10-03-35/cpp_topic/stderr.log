@@ -1,0 +1,18 @@
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:2[m[K:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:[m[K In member function ‘[01m[Kvoid StatusDataPublisher::topic_callback(onix_backend_messages::msg::StatusData_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:34:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus_data_msg_[m[K’ was not declared in this scope
+   34 |                     [01;31m[Kstatus_data_msg_[m[K->total_time, status_data_msg_->controller_temp, msg->ssid.c_str(),
+      |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cpp_pub_spiral.dir/build.make:63: CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/cpp_pub_spiral.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,32 @@
+[0.115s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+[0.136s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.154s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.295s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.321s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.324s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.407s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.449s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.451s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.578s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.613s] CMake Error at CMakeLists.txt:16 (find_package):
+[0.613s]   By not providing "Findonix_backend_messages.cmake" in CMAKE_MODULE_PATH
+[0.613s]   this project has asked CMake to find a package configuration file provided
+[0.613s]   by "onix_backend_messages", but CMake did not find one.
+[0.613s] 
+[0.613s]   Could not find a package configuration file provided by
+[0.613s]   "onix_backend_messages" with any of the following names:
+[0.613s] 
+[0.613s]     onix_backend_messagesConfig.cmake
+[0.613s]     onix_backend_messages-config.cmake
+[0.613s] 
+[0.613s]   Add the installation prefix of "onix_backend_messages" to CMAKE_PREFIX_PATH
+[0.613s]   or set "onix_backend_messages_DIR" to a directory containing one of the
+[0.613s]   above files.  If "onix_backend_messages" provides a separate development
+[0.613s]   package or SDK, be sure it has been installed.
+[0.613s] 
+[0.613s] 
+[0.614s] -- Configuring incomplete, errors occurred!
+[0.614s] See also "/home/xcy/ros2_ws/build/cpp_topic/CMakeFiles/CMakeOutput.log".
+[0.614s] See also "/home/xcy/ros2_ws/build/cpp_topic/CMakeFiles/CMakeError.log".
+[0.619s] make: *** [Makefile:310: cmake_check_build_system] Error 1
+[0.620s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8

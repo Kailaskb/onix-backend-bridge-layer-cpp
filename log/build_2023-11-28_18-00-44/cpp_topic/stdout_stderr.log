@@ -1,0 +1,8 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o[0m
+[ 75%] Built target cpp_sub_spiral
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:19:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KStatusDataPublisher::[m[K’ on member ‘[01m[Ktopic_callback[m[K’ [[01;31m[K-fpermissive[m[K]
+   19 |     void [01;31m[KStatusDataPublisher[m[K::topic_callback(const onix_backend_messages::msg::StatusData::SharedPtr msg)
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cpp_pub_spiral.dir/build.make:63: CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/cpp_pub_spiral.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

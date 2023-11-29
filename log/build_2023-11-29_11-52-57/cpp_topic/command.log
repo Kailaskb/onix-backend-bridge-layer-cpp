@@ -1,0 +1,4 @@
+Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --install /home/xcy/ros2_ws/build/cpp_topic
+Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --install /home/xcy/ros2_ws/build/cpp_topic

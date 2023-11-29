@@ -1,0 +1,38 @@
+[0.181s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+[0.214s] [35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[0.225s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[0.231s] [ 75%] Built target cpp_pub_spiral
+[0.232s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:3:51:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+[0.232s]     3 | from onix_backend_messages.msg import StatusData  [01;31m[K#[m[K Adjust the import
+[0.232s]       |                                                   [01;31m[K^[m[K
+[0.232s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:8:26:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.232s]     8 |         super().__init__([01;35m[K'minimal_subscriber'[m[K)
+[0.232s]       |                          [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.232s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:10:26:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+[0.232s]    10 |             StatusData,  [01;31m[K#[m[K Adjust the message type
+[0.233s]       |                          [01;31m[K^[m[K
+[0.233s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:11:13:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.233s]    11 |             [01;35m[K'topic'[m[K,
+[0.233s]       |             [01;35m[K^~~~~~~[m[K
+[0.233s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:14:46:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+[0.233s]    14 |         self.status_data_msg = StatusData()  [01;31m[K#[m[K Initialize the StatusData message
+[0.233s]       |                                              [01;31m[K^[m[K
+[0.233s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:17:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Store
+[0.233s]    17 |         # [01;31m[KStore[m[K received values in the StatusData message
+[0.233s]       |           [01;31m[K^~~~~[m[K
+[0.233s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:26:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Add
+[0.233s]    26 |         # [01;31m[KAdd[m[K other fields as needed
+[0.234s]       |           [01;31m[K^~~[m[K
+[0.234s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:28:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Save
+[0.234s]    28 |         # [01;31m[KSave[m[K or process the data as needed
+[0.234s]       |           [01;31m[K^~~~[m[K
+[0.234s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:37:16:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.234s]    37 | if __name__ == [01;35m[K'__main__'[m[K:
+[0.234s]       |                [01;35m[K^~~~~~~~~~[m[K
+[0.234s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:1:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kimport[m[K’ does not name a type
+[0.234s]     1 | [01;31m[Kimport[m[K rclpy
+[0.234s]       | [01;31m[K^~~~~~[m[K
+[0.234s] make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+[0.234s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+[0.234s] make: *** [Makefile:141: all] Error 2
+[0.235s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8

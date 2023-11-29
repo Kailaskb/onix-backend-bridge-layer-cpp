@@ -1,0 +1,29 @@
+[0.185s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+[0.219s] [35m[1mScanning dependencies of target cpp_pub_spiral[0m
+[0.234s] [ 50%] Built target cpp_sub_spiral
+[0.247s] [ 75%] [32mBuilding CXX object CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o[0m
+[0.338s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:28:39:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_INFO_STREAM" requires 2 arguments, but only 1 given
+[0.339s]    28 |             << ", rssi: " << msg->rssi[01;31m[K)[m[K;
+[0.339s]       |                                       [01;31m[K^[m[K
+[0.339s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[0.339s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[0.339s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.339s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.339s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.339s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.339s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.339s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.339s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.340s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.340s]                  from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:2[m[K:
+[0.340s] [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:736:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_INFO_STREAM" defined here
+[0.340s]   736 | #define RCLCPP_INFO_STREAM(logger, stream_arg) \
+[0.340s]       | 
+[1.527s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:[m[K In member function ‘[01m[Kvoid StatusDataPublisher::topic_callback(onix_backend_messages::msg::StatusData_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.527s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO_STREAM[m[K’ was not declared in this scope
+[1.527s]    22 |         [01;31m[KRCLCPP_INFO_STREAM[m[K("Received StatusData - mac_address: " << msg->mac_address
+[1.527s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.985s] make[2]: *** [CMakeFiles/cpp_pub_spiral.dir/build.make:63: CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o] Error 1
+[2.985s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/cpp_pub_spiral.dir/all] Error 2
+[2.985s] make: *** [Makefile:141: all] Error 2
+[2.987s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8

@@ -18,6 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros/foxy/include"
+  "/home/xcy/ros2_ws3/install/onix_backend_messages/include"
   )
 
 # Targets to which this target links.

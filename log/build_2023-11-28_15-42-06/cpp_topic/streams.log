@@ -1,0 +1,11 @@
+[0.180s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+[0.228s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[0.231s] [ 75%] Built target cpp_pub_spiral
+[0.319s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Konix_backend_messages/msg/status_data.hpp: No such file or directory
+[0.319s]     4 | #include [01;31m[K"onix_backend_messages/msg/status_data.hpp"[m[K  // Adjust the package name
+[0.319s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.319s] compilation terminated.
+[0.322s] make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+[0.322s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+[0.322s] make: *** [Makefile:141: all] Error 2
+[0.324s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8

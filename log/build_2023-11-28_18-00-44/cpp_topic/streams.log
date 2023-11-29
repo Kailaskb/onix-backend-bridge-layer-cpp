@@ -1,0 +1,10 @@
+[0.231s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+[0.288s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o[0m
+[0.291s] [ 75%] Built target cpp_sub_spiral
+[1.822s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:19:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KStatusDataPublisher::[m[K’ on member ‘[01m[Ktopic_callback[m[K’ [[01;31m[K-fpermissive[m[K]
+[1.822s]    19 |     void [01;31m[KStatusDataPublisher[m[K::topic_callback(const onix_backend_messages::msg::StatusData::SharedPtr msg)
+[1.823s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.365s] make[2]: *** [CMakeFiles/cpp_pub_spiral.dir/build.make:63: CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o] Error 1
+[3.365s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/cpp_pub_spiral.dir/all] Error 2
+[3.365s] make: *** [Makefile:141: all] Error 2
+[3.367s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8

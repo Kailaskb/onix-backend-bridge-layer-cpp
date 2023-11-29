@@ -1,0 +1,109 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found onix_backend_messages: 1.0.0 (/home/xcy/ros2_ws3/install/onix_backend_messages/share/onix_backend_messages/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xcy/ros2_ws/build/cpp_topic
+[35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[ 50%] Built target cpp_pub_spiral
+[ 75%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(onix_backend_messages::msg::SystemConfig_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:30:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstoll(onix_backend_messages::msg::SystemConfig_<std::allocator<void> >::_controller_voltage_type&)[m[K’
+   30 |         status_data_msg_->controller_voltage = std::stoll(msg->controller_voltage[01;31m[K)[m[K;
+      |                                                                                  [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:6521:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Klong long int std::__cxx11::stoll(const string&, std::size_t*, int)[m[K’
+ 6521 |   [01;36m[Kstoll[m[K(const string& __str, size_t* __idx = 0, int __base = 10)
+      |   [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/bits/basic_string.h:6521:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Konix_backend_messages::msg::SystemConfig_<std::allocator<void> >::_controller_voltage_type[m[K’ {aka ‘[01m[Klong int[m[K’} to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+ 6521 |   stoll([01;36m[Kconst string& __str[m[K, size_t* __idx = 0, int __base = 10)
+      |         [01;36m[K~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/9/bits/basic_string.h:6627:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Klong long int std::__cxx11::stoll(const wstring&, std::size_t*, int)[m[K’
+ 6627 |   [01;36m[Kstoll[m[K(const wstring& __str, size_t* __idx = 0, int __base = 10)
+      |   [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/bits/basic_string.h:6627:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Konix_backend_messages::msg::SystemConfig_<std::allocator<void> >::_controller_voltage_type[m[K’ {aka ‘[01m[Klong int[m[K’} to ‘[01m[Kconst wstring&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<wchar_t>&[m[K’}
+ 6627 |   stoll([01;36m[Kconst wstring& __str[m[K, size_t* __idx = 0, int __base = 10)
+      |         [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:32:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstoll(onix_backend_messages::msg::SystemConfig_<std::allocator<void> >::_rssi_type&)[m[K’
+   32 |         status_data_msg_->rssi = std::stoll(msg->rssi[01;31m[K)[m[K;
+      |                                                      [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:6521:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Klong long int std::__cxx11::stoll(const string&, std::size_t*, int)[m[K’
+ 6521 |   [01;36m[Kstoll[m[K(const string& __str, size_t* __idx = 0, int __base = 10)
+      |   [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/bits/basic_string.h:6521:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Konix_backend_messages::msg::SystemConfig_<std::allocator<void> >::_rssi_type[m[K’ {aka ‘[01m[Klong int[m[K’} to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+ 6521 |   stoll([01;36m[Kconst string& __str[m[K, size_t* __idx = 0, int __base = 10)
+      |         [01;36m[K~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/9/bits/basic_string.h:6627:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Klong long int std::__cxx11::stoll(const wstring&, std::size_t*, int)[m[K’
+ 6627 |   [01;36m[Kstoll[m[K(const wstring& __str, size_t* __idx = 0, int __base = 10)
+      |   [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/9/bits/basic_string.h:6627:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Konix_backend_messages::msg::SystemConfig_<std::allocator<void> >::_rssi_type[m[K’ {aka ‘[01m[Klong int[m[K’} to ‘[01m[Kconst wstring&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<wchar_t>&[m[K’}
+ 6627 |   stoll([01;36m[Kconst wstring& __str[m[K, size_t* __idx = 0, int __base = 10)
+      |         [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::timer_callback()[m[K’:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:48:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Publisher<onix_backend_messages::msg::StatusData_<std::allocator<void> > >::publish(std::shared_ptr<onix_backend_messages::msg::StatusData_<std::allocator<void> > >&)[m[K’
+   48 |         publisher_->publish(status_data_msg_[01;31m[K)[m[K;
+      |                                             [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:2[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<MessageT, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type>) [with MessageT = onix_backend_messages::msg::StatusData_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type = std::default_delete<onix_backend_messages::msg::StatusData_<std::allocator<void> > >][m[K’
+  185 |   [01;36m[Kpublish[m[K(std::unique_ptr<MessageT, MessageDeleter> msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<onix_backend_messages::msg::StatusData_<std::allocator<void> > >[m[K’ to ‘[01m[Kstd::unique_ptr<onix_backend_messages::msg::StatusData_<std::allocator<void> >, std::default_delete<onix_backend_messages::msg::StatusData_<std::allocator<void> > > >[m[K’
+  185 |   publish([01;36m[Kstd::unique_ptr<MessageT, MessageDeleter> msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const MessageT&) [with MessageT = onix_backend_messages::msg::StatusData_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+  209 |   [01;36m[Kpublish[m[K(const MessageT & msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<onix_backend_messages::msg::StatusData_<std::allocator<void> > >[m[K’ to ‘[01m[Kconst onix_backend_messages::msg::StatusData_<std::allocator<void> >&[m[K’
+  209 |   publish([01;36m[Kconst MessageT & msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = onix_backend_messages::msg::StatusData_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_t][m[K’
+  226 |   [01;36m[Kpublish[m[K(const rcl_serialized_message_t & serialized_msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<onix_backend_messages::msg::StatusData_<std::allocator<void> > >[m[K’ to ‘[01m[Kconst rcl_serialized_message_t&[m[K’ {aka ‘[01m[Kconst rcutils_uint8_array_t&[m[K’}
+  226 |   publish([01;36m[Kconst rcl_serialized_message_t & serialized_msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = onix_backend_messages::msg::StatusData_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+  232 |   [01;36m[Kpublish[m[K(const SerializedMessage & serialized_msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<onix_backend_messages::msg::StatusData_<std::allocator<void> > >[m[K’ to ‘[01m[Kconst rclcpp::SerializedMessage&[m[K’
+  232 |   publish([01;36m[Kconst SerializedMessage & serialized_msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<MessageT, AllocatorT>&&) [with MessageT = onix_backend_messages::msg::StatusData_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+  246 |   [01;36m[Kpublish[m[K(rclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:58:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<onix_backend_messages::msg::StatusData_<std::allocator<void> > >[m[K’ to ‘[01m[Krclcpp::LoanedMessage<onix_backend_messages::msg::StatusData_<std::allocator<void> >, std::allocator<void> >&&[m[K’
+  246 |   publish([01;36m[Krclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,29 @@
+[0.189s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+[0.209s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.227s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.373s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.400s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.402s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.486s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.528s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.530s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.665s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.695s] -- Found onix_backend_messages: 1.0.0 (/home/xcy/ros2_ws3/install/onix_backend_messages/share/onix_backend_messages/cmake)
+[0.751s] -- Configuring done
+[0.762s] -- Generating done
+[0.763s] -- Build files have been written to: /home/xcy/ros2_ws/build/cpp_topic
+[0.786s] [35m[1mScanning dependencies of target cpp_pub_spiral[0m
+[0.787s] [35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[0.813s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o[0m
+[0.816s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[0.945s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Konix_backend_messages/msg/status_data.hpp: No such file or directory
+[0.945s]     4 | #include [01;31m[K"onix_backend_messages/msg/status_data.hpp"[m[K  // Adjust the package name
+[0.945s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.945s] compilation terminated.
+[0.947s] make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+[0.947s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+[0.947s] make[1]: *** Waiting for unfinished jobs....
+[4.194s] [ 75%] [32m[1mLinking CXX executable cpp_pub_spiral[0m
+[4.360s] [ 75%] Built target cpp_pub_spiral
+[4.361s] make: *** [Makefile:141: all] Error 2
+[4.362s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8

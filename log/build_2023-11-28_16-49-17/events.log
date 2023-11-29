@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.000103] (cpp_topic) JobQueued: {'identifier': 'cpp_topic', 'dependencies': OrderedDict()}
+[0.000133] (cpp_topic) JobStarted: {'identifier': 'cpp_topic'}
+[0.099504] (-) TimerEvent: {}
+[0.174139] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'cmake'}
+[0.175559] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'build'}
+[0.175607] (cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xcy/ros2_ws/build/cpp_topic', '--', '-j8', '-l8'], 'cwd': '/home/xcy/ros2_ws/build/cpp_topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xcy'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1148'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xcy/ros2_ws3/install/onix_backend_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xcy'), ('OLDPWD', '/home/xcy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_DOMAIN_IeD', '1'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '914'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/xcy/ros2_ws/install:/home/xcy/ros2_ws3/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xcy'), ('JOURNAL_STREAM', '8:36657'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xcy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/xcy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xcy-Default-string:@/tmp/.ICE-unix/1187,unix/xcy-Default-string:/tmp/.ICE-unix/1187'), ('INVOCATION_ID', 'f10f60c168bc435a9892e4085bf22182'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4d44bcf2_d09d_4b57_ad1f_2024c0eacc9f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xcy/ros2_ws3/install/py_topic:/home/xcy/ros2_ws3/install/onix_backend_messages:/home/xcy/ros2_ws/install/cpp_topic:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xcy/ros2_ws/build/cpp_topic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xcy/ros2_ws3/install/py_topic/lib/python3.8/site-packages:/home/xcy/ros2_ws3/install/onix_backend_messages/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/xcy/ros2_ws3/install/onix_backend_messages:/home/xcy/ros2_ws/install/cpp_topic:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy')]), 'shell': False}
+[0.198035] (cpp_topic) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.199607] (-) TimerEvent: {}
+[0.214796] (cpp_topic) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.299736] (-) TimerEvent: {}
+[0.360754] (cpp_topic) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.386178] (cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.388874] (cpp_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.399865] (-) TimerEvent: {}
+[0.481185] (cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499964] (-) TimerEvent: {}
+[0.521944] (cpp_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.523151] (cpp_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600102] (-) TimerEvent: {}
+[0.647771] (cpp_topic) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.677582] (cpp_topic) StdoutLine: {'line': b'-- Found onix_backend_messages: 1.0.0 (/home/xcy/ros2_ws3/install/onix_backend_messages/share/onix_backend_messages/cmake)\n'}
+[0.700216] (-) TimerEvent: {}
+[0.733096] (cpp_topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.743098] (cpp_topic) StdoutLine: {'line': b'-- Generating done\n'}
+[0.744414] (cpp_topic) StdoutLine: {'line': b'-- Build files have been written to: /home/xcy/ros2_ws/build/cpp_topic\n'}
+[0.766883] (cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_sub_spiral\x1b[0m\n'}
+[0.786923] (cpp_topic) StdoutLine: {'line': b'[ 50%] Built target cpp_pub_spiral\n'}
+[0.792055] (cpp_topic) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o\x1b[0m\n'}
+[0.800340] (-) TimerEvent: {}
+[0.900635] (-) TimerEvent: {}
+[1.000968] (-) TimerEvent: {}
+[1.101290] (-) TimerEvent: {}
+[1.201622] (-) TimerEvent: {}
+[1.301956] (-) TimerEvent: {}
+[1.402309] (-) TimerEvent: {}
+[1.502644] (-) TimerEvent: {}
+[1.602989] (-) TimerEvent: {}
+[1.703311] (-) TimerEvent: {}
+[1.803677] (-) TimerEvent: {}
+[1.903975] (-) TimerEvent: {}
+[2.004315] (-) TimerEvent: {}
+[2.104657] (-) TimerEvent: {}
+[2.196667] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback(onix_backend_messages::msg::SystemConfig_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.196978] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:30:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstoll(onix_backend_messages::msg::SystemConfig_<std::allocator<void> >::_controller_voltage_type&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.197045] (cpp_topic) StderrLine: {'line': b'   30 |         status_data_msg_->controller_voltage = std::stoll(msg->controller_voltage\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.197104] (cpp_topic) StderrLine: {'line': b'      |                                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.197156] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[2.197209] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[2.197356] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[2.197407] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[2.197457] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[2.197509] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[2.197560] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:1\x1b[m\x1b[K:\n'}
+[2.197609] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6521:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Klong long int std::__cxx11::stoll(const string&, std::size_t*, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.197674] (cpp_topic) StderrLine: {'line': b' 6521 |   \x1b[01;36m\x1b[Kstoll\x1b[m\x1b[K(const string& __str, size_t* __idx = 0, int __base = 10)\n'}
+[2.197724] (cpp_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.197772] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6521:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Konix_backend_messages::msg::SystemConfig_<std::allocator<void> >::_controller_voltage_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.197825] (cpp_topic) StderrLine: {'line': b' 6521 |   stoll(\x1b[01;36m\x1b[Kconst string& __str\x1b[m\x1b[K, size_t* __idx = 0, int __base = 10)\n'}
+[2.197874] (cpp_topic) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.197922] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6627:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Klong long int std::__cxx11::stoll(const wstring&, std::size_t*, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.197971] (cpp_topic) StderrLine: {'line': b' 6627 |   \x1b[01;36m\x1b[Kstoll\x1b[m\x1b[K(const wstring& __str, size_t* __idx = 0, int __base = 10)\n'}
+[2.198020] (cpp_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.198068] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6627:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Konix_backend_messages::msg::SystemConfig_<std::allocator<void> >::_controller_voltage_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst wstring&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<wchar_t>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.198128] (cpp_topic) StderrLine: {'line': b' 6627 |   stoll(\x1b[01;36m\x1b[Kconst wstring& __str\x1b[m\x1b[K, size_t* __idx = 0, int __base = 10)\n'}
+[2.198177] (cpp_topic) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.198225] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:32:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstoll(onix_backend_messages::msg::SystemConfig_<std::allocator<void> >::_rssi_type&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.198369] (cpp_topic) StderrLine: {'line': b'   32 |         status_data_msg_->rssi = std::stoll(msg->rssi\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.198486] (cpp_topic) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.198602] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[2.198718] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[2.198835] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[2.198953] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[2.199069] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[2.199195] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[2.199320] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:1\x1b[m\x1b[K:\n'}
+[2.199406] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6521:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Klong long int std::__cxx11::stoll(const string&, std::size_t*, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.199492] (cpp_topic) StderrLine: {'line': b' 6521 |   \x1b[01;36m\x1b[Kstoll\x1b[m\x1b[K(const string& __str, size_t* __idx = 0, int __base = 10)\n'}
+[2.199577] (cpp_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.199662] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6521:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Konix_backend_messages::msg::SystemConfig_<std::allocator<void> >::_rssi_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.199765] (cpp_topic) StderrLine: {'line': b' 6521 |   stoll(\x1b[01;36m\x1b[Kconst string& __str\x1b[m\x1b[K, size_t* __idx = 0, int __base = 10)\n'}
+[2.199852] (cpp_topic) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.199938] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6627:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Klong long int std::__cxx11::stoll(const wstring&, std::size_t*, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.200062] (cpp_topic) StderrLine: {'line': b' 6627 |   \x1b[01;36m\x1b[Kstoll\x1b[m\x1b[K(const wstring& __str, size_t* __idx = 0, int __base = 10)\n'}
+[2.200162] (cpp_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.200268] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6627:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Konix_backend_messages::msg::SystemConfig_<std::allocator<void> >::_rssi_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst wstring&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<wchar_t>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.200351] (cpp_topic) StderrLine: {'line': b' 6627 |   stoll(\x1b[01;36m\x1b[Kconst wstring& __str\x1b[m\x1b[K, size_t* __idx = 0, int __base = 10)\n'}
+[2.200421] (cpp_topic) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.204690] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.204817] (-) TimerEvent: {}
+[2.204914] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:48:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<onix_backend_messages::msg::StatusData_<std::allocator<void> > >::publish(std::shared_ptr<onix_backend_messages::msg::StatusData_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.205243] (cpp_topic) StderrLine: {'line': b'   48 |         publisher_->publish(status_data_msg_\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.205341] (cpp_topic) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.205419] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[2.205490] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.205557] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.205632] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.205721] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.205789] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.205856] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.205922] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.205989] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.206055] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.206121] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:2\x1b[m\x1b[K:\n'}
+[2.206187] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<MessageT, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type>) [with MessageT = onix_backend_messages::msg::StatusData_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type = std::default_delete<onix_backend_messages::msg::StatusData_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.206303] (cpp_topic) StderrLine: {'line': b'  185 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(std::unique_ptr<MessageT, MessageDeleter> msg)\n'}
+[2.206377] (cpp_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.206510] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<onix_backend_messages::msg::StatusData_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<onix_backend_messages::msg::StatusData_<std::allocator<void> >, std::default_delete<onix_backend_messages::msg::StatusData_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.206588] (cpp_topic) StderrLine: {'line': b'  185 |   publish(\x1b[01;36m\x1b[Kstd::unique_ptr<MessageT, MessageDeleter> msg\x1b[m\x1b[K)\n'}
+[2.206659] (cpp_topic) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.206731] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const MessageT&) [with MessageT = onix_backend_messages::msg::StatusData_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.206805] (cpp_topic) StderrLine: {'line': b'  209 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const MessageT & msg)\n'}
+[2.206877] (cpp_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.206947] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<onix_backend_messages::msg::StatusData_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst onix_backend_messages::msg::StatusData_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.207021] (cpp_topic) StderrLine: {'line': b'  209 |   publish(\x1b[01;36m\x1b[Kconst MessageT & msg\x1b[m\x1b[K)\n'}
+[2.207093] (cpp_topic) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.207164] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = onix_backend_messages::msg::StatusData_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.207250] (cpp_topic) StderrLine: {'line': b'  226 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const rcl_serialized_message_t & serialized_msg)\n'}
+[2.207322] (cpp_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.207390] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<onix_backend_messages::msg::StatusData_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_serialized_message_t&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcutils_uint8_array_t&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.207464] (cpp_topic) StderrLine: {'line': b'  226 |   publish(\x1b[01;36m\x1b[Kconst rcl_serialized_message_t & serialized_msg\x1b[m\x1b[K)\n'}
+[2.207535] (cpp_topic) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.207601] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = onix_backend_messages::msg::StatusData_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.207670] (cpp_topic) StderrLine: {'line': b'  232 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const SerializedMessage & serialized_msg)\n'}
+[2.207736] (cpp_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.207803] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<onix_backend_messages::msg::StatusData_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::SerializedMessage&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.207877] (cpp_topic) StderrLine: {'line': b'  232 |   publish(\x1b[01;36m\x1b[Kconst SerializedMessage & serialized_msg\x1b[m\x1b[K)\n'}
+[2.207945] (cpp_topic) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.208012] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<MessageT, AllocatorT>&&) [with MessageT = onix_backend_messages::msg::StatusData_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.208082] (cpp_topic) StderrLine: {'line': b'  246 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(rclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg)\n'}
+[2.208149] (cpp_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.208231] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<onix_backend_messages::msg::StatusData_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::LoanedMessage<onix_backend_messages::msg::StatusData_<std::allocator<void> >, std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.208310] (cpp_topic) StderrLine: {'line': b'  246 |   publish(\x1b[01;36m\x1b[Krclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg\x1b[m\x1b[K)\n'}
+[2.208384] (cpp_topic) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.304973] (-) TimerEvent: {}
+[2.405309] (-) TimerEvent: {}
+[2.505703] (-) TimerEvent: {}
+[2.606034] (-) TimerEvent: {}
+[2.706360] (-) TimerEvent: {}
+[2.806652] (-) TimerEvent: {}
+[2.907032] (-) TimerEvent: {}
+[3.007375] (-) TimerEvent: {}
+[3.107705] (-) TimerEvent: {}
+[3.208060] (-) TimerEvent: {}
+[3.308445] (-) TimerEvent: {}
+[3.408783] (-) TimerEvent: {}
+[3.509097] (-) TimerEvent: {}
+[3.609473] (-) TimerEvent: {}
+[3.705386] (cpp_topic) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1\n'}
+[3.705626] (cpp_topic) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_sub_spiral.dir/all] Error 2\n'}
+[3.705896] (cpp_topic) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.707657] (cpp_topic) CommandEnded: {'returncode': 2}
+[3.709542] (-) TimerEvent: {}
+[3.810637] (-) TimerEvent: {}
+[3.892339] (cpp_topic) JobEnded: {'identifier': 'cpp_topic', 'rc': 2}
+[3.902745] (-) EventReactorShutdown: {}

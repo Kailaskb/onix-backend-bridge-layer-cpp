@@ -1,0 +1,76 @@
+#include <chrono>
+#include <memory>
+#include "rclcpp/rclcpp.hpp"
+#include "geometry_msgs/msg/twist.hpp"
+
+using namespace std::chrono_literals;
+
+class MinimalPublisher : public rclcpp::Node
+{
+  public:
+    MinimalPublisher()
+    : Node("cpp_pub_spiral_node")
+    {
+      publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 1);
+      i = 0.0;
+      timer_ = this->create_wall_timer(500ms, std::bind(&MinimalPublisher::publish_message, this));
+    }
+
+  private:
+    void publish_message()
+    {
+      auto message = geometry_msgs::msg::Twist();
+      message.linear.x = 4.0; 
+      message.angular.z = 2.0 + i;
+      RCLCPP_INFO(this->get_logger(), "Sending - Linear Velocity : '%f', Angular Velocity : '%f'", message.linear.x, message.angular.z);
+      publisher_->publish(message);
+      i += 0.1; 
+    }
+    rclcpp::TimerBase::SharedPtr timer_;
+    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
+    float i;
+};
+
+int main(int argc, char * argv[])
+{
+  rclcpp::init(argc, argv);
+  rclcpp::spin(std::make_shared<MinimalPublisher>());
+  rclcpp::shutdown();
+  return 0;
+}
+
+
+
+
+
+##############
+
+cmake_minimum_required(VERSION 3.5)
+project(cpp_topic)
+
+# Default to C++17
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 17)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(geometry_msgs REQUIRED)
+
+set(dependencies "geometry_msgs" "rclcpp")
+add_executable(cpp_pub_spiral src/cpp_pub_spiral.cpp)
+ament_target_dependencies(cpp_pub_spiral ${dependencies})
+
+add_executable(cpp_sub_spiral src/cpp_sub_spiral.cpp)
+ament_target_dependencies(cpp_sub_spiral ${dependencies})
+
+install(TARGETS
+  cpp_pub_spiral
+  cpp_sub_spiral
+  DESTINATION lib/${PROJECT_NAME})
+
+ament_package()
