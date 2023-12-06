@@ -1,0 +1,99 @@
+[0.228s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+[0.288s] [35m[1mScanning dependencies of target cpp_pub_spiral[0m
+[0.307s] [ 33%] Built target robot_motion_sub
+[0.310s] [ 66%] Built target cpp_sub_spiral
+[0.315s] [ 83%] [32mBuilding CXX object CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o[0m
+[1.776s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:[m[K In member function ‘[01m[Kvoid StatusDataPublisher::timer_callback()[m[K’:
+[1.776s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:31:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kg_combined_data[m[K’
+[1.776s]    31 |         combined_data.[01;31m[Kg_combined_data[m[K.mac_address = g_system_config_data.mac_address;
+[1.777s]       |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.777s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:32:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kg_combined_data[m[K’
+[1.777s]    32 |         combined_data.[01;31m[Kg_combined_data[m[K.time = g_system_config_data.time;
+[1.777s]       |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.777s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:33:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kg_combined_data[m[K’
+[1.777s]    33 |         combined_data.[01;31m[Kg_combined_data[m[K.controller_voltage = g_system_config_data.controller_voltage;
+[1.777s]       |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.777s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:34:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kg_combined_data[m[K’
+[1.777s]    34 |         combined_data.[01;31m[Kg_combined_data[m[K.total_time = g_system_config_data.total_time;
+[1.777s]       |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.777s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:35:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kg_combined_data[m[K’
+[1.777s]    35 |         combined_data.[01;31m[Kg_combined_data[m[K.controller_temp = g_system_config_data.controller_temp;
+[1.778s]       |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.778s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:36:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kg_combined_data[m[K’
+[1.778s]    36 |         combined_data.[01;31m[Kg_combined_data[m[K.ssid = g_system_config_data.ssid;
+[1.778s]       |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.778s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:37:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kg_combined_data[m[K’
+[1.778s]    37 |         combined_data.[01;31m[Kg_combined_data[m[K.rssi = g_system_config_data.rssi;
+[1.778s]       |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.779s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:41:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klocation_data[m[K’
+[1.779s]    41 |         combined_data.[01;31m[Klocation_data[m[K.x = g_location_data.x;
+[1.779s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.779s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:42:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klocation_data[m[K’
+[1.779s]    42 |         combined_data.[01;31m[Klocation_data[m[K.y = g_location_data.y;
+[1.779s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.779s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:43:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klocation_data[m[K’
+[1.779s]    43 |         combined_data.[01;31m[Klocation_data[m[K.angle = g_location_data.angle;
+[1.779s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.780s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:44:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klocation_data[m[K’
+[1.780s]    44 |         combined_data.[01;31m[Klocation_data[m[K.confidence = g_location_data.confidence;
+[1.780s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.780s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:45:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klocation_data[m[K’
+[1.780s]    45 |         combined_data.[01;31m[Klocation_data[m[K.current_station = g_location_data.current_station;
+[1.780s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.780s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:46:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klocation_data[m[K’
+[1.780s]    46 |         combined_data.[01;31m[Klocation_data[m[K.last_station = g_location_data.last_station;
+[1.780s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.780s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.780s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.781s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.781s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.781s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.781s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.781s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.781s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.781s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.781s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.781s]                  from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:2[m[K:
+[1.781s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:51:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kg_combined_data[m[K’
+[1.782s]    51 |                     combined_data.[01;31m[Kg_combined_data[m[K.mac_address.c_str(), combined_data.g_combined_data.time.c_str(),
+[1.782s]       |                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.782s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:51:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kg_combined_data[m[K’
+[1.782s]    51 |                     combined_data.g_combined_data.mac_address.c_str(), combined_data.[01;31m[Kg_combined_data[m[K.time.c_str(),
+[1.782s]       |                                                                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.782s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:52:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kg_combined_data[m[K’
+[1.782s]    52 |                     combined_data.[01;31m[Kg_combined_data[m[K.controller_voltage, combined_data.g_combined_data.total_time,
+[1.782s]       |                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.782s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:52:85:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kg_combined_data[m[K’
+[1.782s]    52 |                     combined_data.g_combined_data.controller_voltage, combined_data.[01;31m[Kg_combined_data[m[K.total_time,
+[1.782s]       |                                                                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.782s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:53:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kg_combined_data[m[K’
+[1.782s]    53 |                     combined_data.[01;31m[Kg_combined_data[m[K.controller_temp, combined_data.g_combined_data.ssid.c_str(),
+[1.783s]       |                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.783s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:53:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kg_combined_data[m[K’
+[1.783s]    53 |                     combined_data.g_combined_data.controller_temp, combined_data.[01;31m[Kg_combined_data[m[K.ssid.c_str(),
+[1.783s]       |                                                                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.783s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:54:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kg_combined_data[m[K’
+[1.783s]    54 |                     combined_data.[01;31m[Kg_combined_data[m[K.rssi, combined_data.location_data.x, combined_data.location_data.y,
+[1.783s]       |                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.783s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:54:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klocation_data[m[K’
+[1.783s]    54 |                     combined_data.g_combined_data.rssi, combined_data.[01;31m[Klocation_data[m[K.x, combined_data.location_data.y,
+[1.783s]       |                                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.783s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:54:102:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klocation_data[m[K’
+[1.783s]    54 |                     combined_data.g_combined_data.rssi, combined_data.location_data.x, combined_data.[01;31m[Klocation_data[m[K.y,
+[1.783s]       |                                                                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[1.784s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:55:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klocation_data[m[K’
+[1.784s]    55 |                     combined_data.[01;31m[Klocation_data[m[K.angle, combined_data.location_data.confidence,
+[1.784s]       |                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[1.784s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:55:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klocation_data[m[K’
+[1.784s]    55 |                     combined_data.location_data.angle, combined_data.[01;31m[Klocation_data[m[K.confidence,
+[1.784s]       |                                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[1.784s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:56:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klocation_data[m[K’
+[1.784s]    56 |                     combined_data.[01;31m[Klocation_data[m[K.current_station.c_str(), combined_data.location_data.last_station.c_str());
+[1.784s]       |                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[1.784s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:56:88:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klocation_data[m[K’
+[1.784s]    56 |                     combined_data.location_data.current_station.c_str(), combined_data.[01;31m[Klocation_data[m[K.last_station.c_str());
+[1.784s]       |                                                                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[2.672s] make[2]: *** [CMakeFiles/cpp_pub_spiral.dir/build.make:63: CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o] Error 1
+[2.673s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/cpp_pub_spiral.dir/all] Error 2
+[2.673s] make: *** [Makefile:141: all] Error 2
+[2.680s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8

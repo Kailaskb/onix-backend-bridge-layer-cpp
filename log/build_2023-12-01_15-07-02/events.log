@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.000145] (cpp_topic) JobQueued: {'identifier': 'cpp_topic', 'dependencies': OrderedDict()}
+[0.000184] (cpp_topic) JobStarted: {'identifier': 'cpp_topic'}
+[0.099188] (-) TimerEvent: {}
+[0.177978] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'cmake'}
+[0.179246] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'build'}
+[0.179398] (cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xcy/ros2_ws/build/cpp_topic', '--', '-j8', '-l8'], 'cwd': '/home/xcy/ros2_ws/build/cpp_topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xcy'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1224'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xcy/ros2_ws3/install/onix_backend_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xcy'), ('OLDPWD', '/home/xcy'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/xcy/.nvm/versions/node/v16.17.1/bin'), ('NVM_INC', '/home/xcy/.nvm/versions/node/v16.17.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_DOMAIN_IeD', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/xcy/.nvm'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/xcy/ros2_ws/install:/home/xcy/ros2_ws3/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xcy'), ('JOURNAL_STREAM', '8:38181'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xcy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/xcy/.nvm/versions/node/v16.17.1/bin:/opt/ros/foxy/bin:/home/xcy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xcy-Default-string:@/tmp/.ICE-unix/1271,unix/xcy-Default-string:/tmp/.ICE-unix/1271'), ('INVOCATION_ID', '225e642416f34a6c9416e692d16e4698'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/024f645c_40e8_477f_8e0f_70b3b8002807'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '3'), ('AMENT_PREFIX_PATH', '/home/xcy/ros2_ws/install/cpp_topic:/home/xcy/ros2_ws3/install/py_topic:/home/xcy/ros2_ws3/install/onix_backend_messages:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xcy/ros2_ws/build/cpp_topic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xcy/ros2_ws3/install/py_topic/lib/python3.8/site-packages:/home/xcy/ros2_ws3/install/onix_backend_messages/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/xcy/ros2_ws/install/cpp_topic:/home/xcy/ros2_ws3/install/onix_backend_messages:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy')]), 'shell': False}
+[0.199353] (-) TimerEvent: {}
+[0.217920] (cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_sub_spiral\x1b[0m\n'}
+[0.238461] (cpp_topic) StdoutLine: {'line': b'[ 66%] Built target cpp_pub_spiral\n'}
+[0.238764] (cpp_topic) StdoutLine: {'line': b'[ 66%] Built target robot_motion_sub\n'}
+[0.248852] (cpp_topic) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o\x1b[0m\n'}
+[0.299497] (-) TimerEvent: {}
+[0.399831] (-) TimerEvent: {}
+[0.500151] (-) TimerEvent: {}
+[0.600464] (-) TimerEvent: {}
+[0.700788] (-) TimerEvent: {}
+[0.801168] (-) TimerEvent: {}
+[0.901494] (-) TimerEvent: {}
+[1.001801] (-) TimerEvent: {}
+[1.102098] (-) TimerEvent: {}
+[1.202422] (-) TimerEvent: {}
+[1.302687] (-) TimerEvent: {}
+[1.403004] (-) TimerEvent: {}
+[1.503324] (-) TimerEvent: {}
+[1.603653] (-) TimerEvent: {}
+[1.704031] (-) TimerEvent: {}
+[1.804364] (-) TimerEvent: {}
+[1.904710] (-) TimerEvent: {}
+[2.005056] (-) TimerEvent: {}
+[2.105394] (-) TimerEvent: {}
+[2.205721] (-) TimerEvent: {}
+[2.306045] (-) TimerEvent: {}
+[2.406482] (-) TimerEvent: {}
+[2.506814] (-) TimerEvent: {}
+[2.607133] (-) TimerEvent: {}
+[2.707465] (-) TimerEvent: {}
+[2.807829] (-) TimerEvent: {}
+[2.908156] (-) TimerEvent: {}
+[3.008479] (-) TimerEvent: {}
+[3.108807] (-) TimerEvent: {}
+[3.209186] (-) TimerEvent: {}
+[3.309515] (-) TimerEvent: {}
+[3.409867] (-) TimerEvent: {}
+[3.510202] (-) TimerEvent: {}
+[3.610559] (-) TimerEvent: {}
+[3.710910] (-) TimerEvent: {}
+[3.811254] (-) TimerEvent: {}
+[3.911592] (-) TimerEvent: {}
+[4.011924] (-) TimerEvent: {}
+[4.112248] (-) TimerEvent: {}
+[4.212596] (-) TimerEvent: {}
+[4.312975] (-) TimerEvent: {}
+[4.413370] (-) TimerEvent: {}
+[4.513731] (-) TimerEvent: {}
+[4.614042] (-) TimerEvent: {}
+[4.714357] (-) TimerEvent: {}
+[4.814677] (-) TimerEvent: {}
+[4.914979] (-) TimerEvent: {}
+[5.015275] (-) TimerEvent: {}
+[5.115571] (-) TimerEvent: {}
+[5.215868] (-) TimerEvent: {}
+[5.316203] (-) TimerEvent: {}
+[5.416492] (-) TimerEvent: {}
+[5.516780] (-) TimerEvent: {}
+[5.617090] (-) TimerEvent: {}
+[5.717370] (-) TimerEvent: {}
+[5.817671] (-) TimerEvent: {}
+[5.918027] (-) TimerEvent: {}
+[6.018338] (-) TimerEvent: {}
+[6.118610] (-) TimerEvent: {}
+[6.218915] (-) TimerEvent: {}
+[6.319280] (-) TimerEvent: {}
+[6.419639] (-) TimerEvent: {}
+[6.519963] (-) TimerEvent: {}
+[6.620277] (-) TimerEvent: {}
+[6.720557] (-) TimerEvent: {}
+[6.820926] (-) TimerEvent: {}
+[6.921217] (-) TimerEvent: {}
+[7.021537] (-) TimerEvent: {}
+[7.121881] (-) TimerEvent: {}
+[7.169108] (cpp_topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cpp_sub_spiral\x1b[0m\n'}
+[7.221998] (-) TimerEvent: {}
+[7.322363] (-) TimerEvent: {}
+[7.422686] (-) TimerEvent: {}
+[7.497822] (cpp_topic) StdoutLine: {'line': b'[100%] Built target cpp_sub_spiral\n'}
+[7.507933] (cpp_topic) CommandEnded: {'returncode': 0}
+[7.522770] (-) TimerEvent: {}
+[7.532249] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'install'}
+[7.543666] (cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xcy/ros2_ws/build/cpp_topic'], 'cwd': '/home/xcy/ros2_ws/build/cpp_topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xcy'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1224'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xcy/ros2_ws3/install/onix_backend_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xcy'), ('OLDPWD', '/home/xcy'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/xcy/.nvm/versions/node/v16.17.1/bin'), ('NVM_INC', '/home/xcy/.nvm/versions/node/v16.17.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_DOMAIN_IeD', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/xcy/.nvm'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/xcy/ros2_ws/install:/home/xcy/ros2_ws3/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xcy'), ('JOURNAL_STREAM', '8:38181'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xcy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/xcy/.nvm/versions/node/v16.17.1/bin:/opt/ros/foxy/bin:/home/xcy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xcy-Default-string:@/tmp/.ICE-unix/1271,unix/xcy-Default-string:/tmp/.ICE-unix/1271'), ('INVOCATION_ID', '225e642416f34a6c9416e692d16e4698'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/024f645c_40e8_477f_8e0f_70b3b8002807'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '3'), ('AMENT_PREFIX_PATH', '/home/xcy/ros2_ws/install/cpp_topic:/home/xcy/ros2_ws3/install/py_topic:/home/xcy/ros2_ws3/install/onix_backend_messages:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xcy/ros2_ws/build/cpp_topic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xcy/ros2_ws3/install/py_topic/lib/python3.8/site-packages:/home/xcy/ros2_ws3/install/onix_backend_messages/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/xcy/ros2_ws/install/cpp_topic:/home/xcy/ros2_ws3/install/onix_backend_messages:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy')]), 'shell': False}
+[7.552092] (cpp_topic) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[7.552360] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/xcy/ros2_ws/install/cpp_topic/lib/cpp_topic/cpp_pub_spiral\n'}
+[7.552557] (cpp_topic) StdoutLine: {'line': b'-- Installing: /home/xcy/ros2_ws/install/cpp_topic/lib/cpp_topic/cpp_sub_spiral\n'}
+[7.560434] (cpp_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/xcy/ros2_ws/install/cpp_topic/lib/cpp_topic/cpp_sub_spiral" to ""\n'}
+[7.560647] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/xcy/ros2_ws/install/cpp_topic/lib/cpp_topic/robot_motion_sub\n'}
+[7.560854] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/xcy/ros2_ws/install/cpp_topic/share/ament_index/resource_index/package_run_dependencies/cpp_topic\n'}
+[7.561070] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/xcy/ros2_ws/install/cpp_topic/share/ament_index/resource_index/parent_prefix_path/cpp_topic\n'}
+[7.561182] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.sh\n'}
+[7.561254] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.dsv\n'}
+[7.561356] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/environment/path.sh\n'}
+[7.561437] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/environment/path.dsv\n'}
+[7.561504] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.bash\n'}
+[7.561569] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.sh\n'}
+[7.561634] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.zsh\n'}
+[7.561698] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.dsv\n'}
+[7.561761] (cpp_topic) StdoutLine: {'line': b'-- Installing: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/package.dsv\n'}
+[7.561825] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/xcy/ros2_ws/install/cpp_topic/share/ament_index/resource_index/packages/cpp_topic\n'}
+[7.561889] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig.cmake\n'}
+[7.561954] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig-version.cmake\n'}
+[7.562026] (cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/package.xml\n'}
+[7.563155] (cpp_topic) CommandEnded: {'returncode': 0}
+[7.622860] (-) TimerEvent: {}
+[7.723230] (-) TimerEvent: {}
+[7.823621] (-) TimerEvent: {}
+[7.859274] (cpp_topic) JobEnded: {'identifier': 'cpp_topic', 'rc': 0}
+[7.859982] (-) EventReactorShutdown: {}

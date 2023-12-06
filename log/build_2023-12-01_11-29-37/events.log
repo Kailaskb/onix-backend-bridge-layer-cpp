@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.000742] (cpp_topic) JobQueued: {'identifier': 'cpp_topic', 'dependencies': OrderedDict()}
+[0.000776] (cpp_topic) JobStarted: {'identifier': 'cpp_topic'}
+[0.100328] (-) TimerEvent: {}
+[0.175997] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'cmake'}
+[0.177316] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'build'}
+[0.177359] (cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xcy/ros2_ws/build/cpp_topic', '--', '-j8', '-l8'], 'cwd': '/home/xcy/ros2_ws/build/cpp_topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xcy'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1224'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xcy/ros2_ws3/install/onix_backend_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xcy'), ('OLDPWD', '/home/xcy'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/xcy/.nvm/versions/node/v16.17.1/bin'), ('NVM_INC', '/home/xcy/.nvm/versions/node/v16.17.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_DOMAIN_IeD', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/xcy/.nvm'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/xcy/ros2_ws/install:/home/xcy/ros2_ws3/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xcy'), ('JOURNAL_STREAM', '8:38181'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xcy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/xcy/.nvm/versions/node/v16.17.1/bin:/opt/ros/foxy/bin:/home/xcy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xcy-Default-string:@/tmp/.ICE-unix/1271,unix/xcy-Default-string:/tmp/.ICE-unix/1271'), ('INVOCATION_ID', '225e642416f34a6c9416e692d16e4698'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/024f645c_40e8_477f_8e0f_70b3b8002807'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xcy/ros2_ws/install/cpp_topic:/home/xcy/ros2_ws3/install/py_topic:/home/xcy/ros2_ws3/install/onix_backend_messages:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xcy/ros2_ws/build/cpp_topic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xcy/ros2_ws3/install/py_topic/lib/python3.8/site-packages:/home/xcy/ros2_ws3/install/onix_backend_messages/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/xcy/ros2_ws/install/cpp_topic:/home/xcy/ros2_ws3/install/onix_backend_messages:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy')]), 'shell': False}
+[0.200499] (-) TimerEvent: {}
+[0.214645] (cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robot_motion_sub\x1b[0m\n'}
+[0.233521] (cpp_topic) StdoutLine: {'line': b'[ 50%] Built target cpp_pub_spiral\n'}
+[0.233701] (cpp_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o\x1b[0m\n'}
+[0.243637] (cpp_topic) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/robot_motion_sub.dir/src/robot_motion_sub.cpp.o\x1b[0m\n'}
+[0.300590] (-) TimerEvent: {}
+[0.400909] (-) TimerEvent: {}
+[0.501291] (-) TimerEvent: {}
+[0.601652] (-) TimerEvent: {}
+[0.702083] (-) TimerEvent: {}
+[0.802456] (-) TimerEvent: {}
+[0.902960] (-) TimerEvent: {}
+[1.003364] (-) TimerEvent: {}
+[1.103781] (-) TimerEvent: {}
+[1.204158] (-) TimerEvent: {}
+[1.304537] (-) TimerEvent: {}
+[1.404869] (-) TimerEvent: {}
+[1.505245] (-) TimerEvent: {}
+[1.605620] (-) TimerEvent: {}
+[1.706027] (-) TimerEvent: {}
+[1.775393] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber::MinimalSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.775937] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:20:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int>::duration(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.776014] (cpp_topic) StderrLine: {'line': b'   20 |         timer_ = this->create_wall_timer(std::chrono::seconds(0.33\x1b[01;31m\x1b[K)\x1b[m\x1b[K,\n'}
+[1.776082] (cpp_topic) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.776144] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/mutex:39\x1b[m\x1b[K,\n'}
+[1.776204] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/future:38\x1b[m\x1b[K,\n'}
+[1.776262] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.776321] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.776379] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:2\x1b[m\x1b[K:\n'}
+[1.776437] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/chrono:338:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep2, class _Period2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.776504] (cpp_topic) StderrLine: {'line': b'  338 |    constexpr \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const duration<_Rep2, _Period2>& __d)\n'}
+[1.776562] (cpp_topic) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.776619] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/chrono:338:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.776701] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:20:67:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<_Rep1, _Period1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.776786] (cpp_topic) StderrLine: {'line': b'   20 |         timer_ = this->create_wall_timer(std::chrono::seconds(0.33\x1b[01;36m\x1b[K)\x1b[m\x1b[K,\n'}
+[1.776866] (cpp_topic) StderrLine: {'line': b'      |                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.776946] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/mutex:39\x1b[m\x1b[K,\n'}
+[1.777025] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/future:38\x1b[m\x1b[K,\n'}
+[1.777105] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.777184] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.777264] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:2\x1b[m\x1b[K:\n'}
+[1.777345] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/chrono:331:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const _Rep2&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.777433] (cpp_topic) StderrLine: {'line': b'  331 |    constexpr explicit \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const _Rep2& __rep)\n'}
+[1.777514] (cpp_topic) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.777594] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/chrono:331:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.777674] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/move.h:55\x1b[m\x1b[K,\n'}
+[1.777754] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[1.777834] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[1.777914] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:62\x1b[m\x1b[K,\n'}
+[1.777994] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:1\x1b[m\x1b[K:\n'}
+[1.778076] (cpp_topic) StderrLine: {'line': b'/usr/include/c++/9/type_traits: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _Cond> using _Require = typename std::enable_if<std::__and_< <template-parameter-1-1> >::value>::type [with _Cond = {std::is_convertible<const double&, long int>, std::__or_<std::chrono::treat_as_floating_point<long int>, std::__not_<std::chrono::treat_as_floating_point<double> > >}]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.778172] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/chrono:328:27:\x1b[m\x1b[K   required from here\n'}
+[1.778260] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/type_traits:2048:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.778344] (cpp_topic) StderrLine: {'line': b' 2048 |     using \x1b[01;31m\x1b[K_Require\x1b[m\x1b[K = typename enable_if<__and_<_Cond...>::value>::type;\n'}
+[1.778425] (cpp_topic) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.778511] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/mutex:39\x1b[m\x1b[K,\n'}
+[1.778592] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/future:38\x1b[m\x1b[K,\n'}
+[1.778672] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.778759] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.778834] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:2\x1b[m\x1b[K:\n'}
+[1.778909] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/chrono:324:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.778983] (cpp_topic) StderrLine: {'line': b'  324 |  \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const duration&) = default;\n'}
+[1.779054] (cpp_topic) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.779124] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/chrono:324:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<long int>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.779228] (cpp_topic) StderrLine: {'line': b'  324 |  duration(\x1b[01;36m\x1b[Kconst duration&\x1b[m\x1b[K) = default;\n'}
+[1.779299] (cpp_topic) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.779370] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/chrono:322:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<_Rep, _Period>::duration() [with _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.779442] (cpp_topic) StderrLine: {'line': b'  322 |  constexpr \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K() = default;\n'}
+[1.779513] (cpp_topic) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.779583] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/chrono:322:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[1.806153] (-) TimerEvent: {}
+[1.906486] (-) TimerEvent: {}
+[2.006786] (-) TimerEvent: {}
+[2.107098] (-) TimerEvent: {}
+[2.207448] (-) TimerEvent: {}
+[2.307800] (-) TimerEvent: {}
+[2.408152] (-) TimerEvent: {}
+[2.508487] (-) TimerEvent: {}
+[2.608817] (-) TimerEvent: {}
+[2.709150] (-) TimerEvent: {}
+[2.809523] (-) TimerEvent: {}
+[2.909914] (-) TimerEvent: {}
+[3.010236] (-) TimerEvent: {}
+[3.110596] (-) TimerEvent: {}
+[3.194131] (cpp_topic) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1\n'}
+[3.194377] (cpp_topic) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/cpp_sub_spiral.dir/all] Error 2\n'}
+[3.194498] (cpp_topic) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[3.210714] (-) TimerEvent: {}
+[3.311052] (-) TimerEvent: {}
+[3.411452] (-) TimerEvent: {}
+[3.511849] (-) TimerEvent: {}
+[3.612201] (-) TimerEvent: {}
+[3.712552] (-) TimerEvent: {}
+[3.812882] (-) TimerEvent: {}
+[3.913259] (-) TimerEvent: {}
+[4.013636] (-) TimerEvent: {}
+[4.113986] (-) TimerEvent: {}
+[4.214299] (-) TimerEvent: {}
+[4.314614] (-) TimerEvent: {}
+[4.414929] (-) TimerEvent: {}
+[4.515226] (-) TimerEvent: {}
+[4.615541] (-) TimerEvent: {}
+[4.715906] (-) TimerEvent: {}
+[4.816225] (-) TimerEvent: {}
+[4.916547] (-) TimerEvent: {}
+[5.016861] (-) TimerEvent: {}
+[5.117200] (-) TimerEvent: {}
+[5.217529] (-) TimerEvent: {}
+[5.317849] (-) TimerEvent: {}
+[5.418196] (-) TimerEvent: {}
+[5.518600] (-) TimerEvent: {}
+[5.618933] (-) TimerEvent: {}
+[5.719278] (-) TimerEvent: {}
+[5.819579] (-) TimerEvent: {}
+[5.919988] (-) TimerEvent: {}
+[5.926384] (cpp_topic) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable robot_motion_sub\x1b[0m\n'}
+[6.020099] (-) TimerEvent: {}
+[6.120427] (-) TimerEvent: {}
+[6.168818] (cpp_topic) StdoutLine: {'line': b'[ 83%] Built target robot_motion_sub\n'}
+[6.169722] (cpp_topic) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[6.171289] (cpp_topic) CommandEnded: {'returncode': 2}
+[6.226739] (-) TimerEvent: {}
+[6.328686] (-) TimerEvent: {}
+[6.354277] (cpp_topic) JobEnded: {'identifier': 'cpp_topic', 'rc': 2}
+[6.364912] (-) EventReactorShutdown: {}

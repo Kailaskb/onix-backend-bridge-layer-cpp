@@ -1,0 +1,31 @@
+[0.183s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+[0.219s] [35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[0.238s] [ 66%] Built target cpp_pub_spiral
+[0.238s] [ 66%] Built target robot_motion_sub
+[0.246s] [ 83%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[1.747s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In member function ‘[01m[Kvoid LocationSubscriber::location_callback(onix_backend_messages::msg::LocationInformations_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.747s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:97:22:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K->[m[K’ token
+[1.747s]    97 |         CombinedData [01;31m[K->[m[K x = msg->x;
+[1.747s]       |                      [01;31m[K^~[m[K
+[1.747s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:98:22:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K->[m[K’ token
+[1.748s]    98 |         CombinedData [01;31m[K->[m[K y = msg->y;
+[1.748s]       |                      [01;31m[K^~[m[K
+[1.748s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:99:22:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K->[m[K’ token
+[1.748s]    99 |         CombinedData [01;31m[K->[m[K angle = msg->angle;
+[1.748s]       |                      [01;31m[K^~[m[K
+[1.748s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:100:22:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K->[m[K’ token
+[1.748s]   100 |         CombinedData [01;31m[K->[m[K confidence = msg->confidence;
+[1.748s]       |                      [01;31m[K^~[m[K
+[1.748s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:101:22:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K->[m[K’ token
+[1.748s]   101 |         CombinedData [01;31m[K->[m[K current_station = msg->current_station;
+[1.748s]       |                      [01;31m[K^~[m[K
+[1.748s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:102:22:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K->[m[K’ token
+[1.748s]   102 |         CombinedData [01;31m[K->[m[K last_station = msg->last_station;
+[1.748s]       |                      [01;31m[K^~[m[K
+[1.748s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:91:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.748s]    91 |     void location_callback([01;35m[Kconst onix_backend_messages::msg::LocationInformations::SharedPtr msg[m[K)
+[1.749s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.007s] make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+[4.007s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+[4.007s] make: *** [Makefile:141: all] Error 2
+[4.009s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8

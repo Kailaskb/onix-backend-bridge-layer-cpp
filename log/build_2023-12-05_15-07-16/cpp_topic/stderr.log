@@ -1,0 +1,19 @@
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In member function ‘[01m[Kvoid CombinedSubscriber::timer_callback()[m[K’:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:145:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksteer[m[K’; did you mean ‘[01m[Kr_steer[m[K’?
+  145 |         status_data_msg.[01;31m[Ksteer[m[K = g_combined_data.steer;
+      |                         [01;31m[K^~~~~[m[K
+      |                         [32m[Kr_steer[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:152:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksteer_angles[m[K’; did you mean ‘[01m[Ksteer_angle[m[K’?
+  152 |         status_data_msg.[01;31m[Ksteer_angles[m[K = g_combined_data.steer_angles;
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+      |                         [32m[Ksteer_angle[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:153:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kr_steer_angles[m[K’; did you mean ‘[01m[Kr_steer_angle[m[K’?
+  153 |         status_data_msg.[01;31m[Kr_steer_angles[m[K = g_combined_data.r_steer_angles;
+      |                         [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                         [32m[Kr_steer_angle[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:157:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kodom_time[m[K’
+  157 |         status_data_msg.[01;31m[Kodom_time[m[K = g_combined_data.odom_time;
+      |                         [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

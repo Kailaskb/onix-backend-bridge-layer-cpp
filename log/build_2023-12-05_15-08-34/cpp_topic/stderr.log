@@ -1,0 +1,14 @@
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In member function ‘[01m[Kvoid CombinedSubscriber::timer_callback()[m[K’:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:152:56:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<float>[m[K’ to ‘[01m[Konix_backend_messages::msg::StatusData_<std::allocator<void> >::_steer_angles_type[m[K’ {aka ‘[01m[Kfloat[m[K’} in assignment
+  152 |         status_data_msg.steer_angles = [01;31m[Kg_combined_data.steer_angles[m[K;
+      |                                        [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+      |                                                        [01;31m[K|[m[K
+      |                                                        [01;31m[Kstd::vector<float>[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:153:58:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<float>[m[K’ to ‘[01m[Konix_backend_messages::msg::StatusData_<std::allocator<void> >::_r_steer_angles_type[m[K’ {aka ‘[01m[Kfloat[m[K’} in assignment
+  153 |         status_data_msg.r_steer_angles = [01;31m[Kg_combined_data.r_steer_angles[m[K;
+      |                                          [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+      |                                                          [01;31m[K|[m[K
+      |                                                          [01;31m[Kstd::vector<float>[m[K
+make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -181,19 +181,6 @@ cpp_sub_spiral/fast:
 .PHONY : cpp_sub_spiral/fast
 
 #=============================================================================
-# Target rules for targets named cpp_pub_spiral
-
-# Build rule for target.
-cpp_pub_spiral: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cpp_pub_spiral
-.PHONY : cpp_pub_spiral
-
-# fast build rule for target.
-cpp_pub_spiral/fast:
-	$(MAKE) -f CMakeFiles/cpp_pub_spiral.dir/build.make CMakeFiles/cpp_pub_spiral.dir/build
-.PHONY : cpp_pub_spiral/fast
-
-#=============================================================================
 # Target rules for targets named cpp_topic_uninstall
 
 # Build rule for target.
@@ -218,33 +205,6 @@ uninstall: cmake_check_build_system
 uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
-
-src/cpp_pub_spiral.o: src/cpp_pub_spiral.cpp.o
-
-.PHONY : src/cpp_pub_spiral.o
-
-# target to build an object file
-src/cpp_pub_spiral.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp_pub_spiral.dir/build.make CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o
-.PHONY : src/cpp_pub_spiral.cpp.o
-
-src/cpp_pub_spiral.i: src/cpp_pub_spiral.cpp.i
-
-.PHONY : src/cpp_pub_spiral.i
-
-# target to preprocess a source file
-src/cpp_pub_spiral.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp_pub_spiral.dir/build.make CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.i
-.PHONY : src/cpp_pub_spiral.cpp.i
-
-src/cpp_pub_spiral.s: src/cpp_pub_spiral.cpp.s
-
-.PHONY : src/cpp_pub_spiral.s
-
-# target to generate assembly for a file
-src/cpp_pub_spiral.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp_pub_spiral.dir/build.make CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.s
-.PHONY : src/cpp_pub_spiral.cpp.s
 
 src/cpp_sub_spiral.o: src/cpp_sub_spiral.cpp.o
 
@@ -287,12 +247,8 @@ help:
 	@echo "... test"
 	@echo "... cpp_sub_spiral"
 	@echo "... install/strip"
-	@echo "... cpp_pub_spiral"
 	@echo "... cpp_topic_uninstall"
 	@echo "... uninstall"
-	@echo "... src/cpp_pub_spiral.o"
-	@echo "... src/cpp_pub_spiral.i"
-	@echo "... src/cpp_pub_spiral.s"
 	@echo "... src/cpp_sub_spiral.o"
 	@echo "... src/cpp_sub_spiral.i"
 	@echo "... src/cpp_sub_spiral.s"

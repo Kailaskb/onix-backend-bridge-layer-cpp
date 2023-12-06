@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[ 66%] Built target cpp_pub_spiral
+[ 66%] Built target robot_motion_sub
+[ 83%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In constructor ‘[01m[KCombinedSubscriber::CombinedSubscriber()[m[K’:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:36:38:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+   36 |             "motion", 10, std::bind(&[01;31m[KMinimalSubscriber[m[K::topic_callback, this, std::placeholders::_1));
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

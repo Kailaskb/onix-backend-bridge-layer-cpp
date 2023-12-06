@@ -15,6 +15,8 @@ onix_backend_messages/msg/system_config.hpp
 /home/xcy/ros2_ws/src/cpp_topic/src/onix_backend_messages/msg/system_config.hpp
 onix_backend_messages/msg/status_data.hpp
 /home/xcy/ros2_ws/src/cpp_topic/src/onix_backend_messages/msg/status_data.hpp
+cpp_sub_spiral/CombinedData
+/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral/CombinedData
 
 /home/xcy/ros2_ws3/install/onix_backend_messages/include/onix_backend_messages/msg/detail/status_data__builder.hpp
 onix_backend_messages/msg/detail/status_data__struct.hpp

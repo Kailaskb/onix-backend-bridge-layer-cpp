@@ -1,0 +1,20 @@
+[0.207s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+[0.239s] [35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[0.264s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[1.587s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:43:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.587s]    43 |     float [01;31m[Kodom_controller_temp[m[K
+[1.587s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.587s]       |                               [32m[K;[m[K
+[1.587s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:44:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.587s]    44 |     float [01;31m[Kodom_controller_voltage[m[K
+[1.587s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.587s]       |                                  [32m[K;[m[K
+[1.662s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In member function ‘[01m[Kvoid CombinedSubscriber::timer_callback()[m[K’:
+[1.662s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:186:75:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K,[m[K’ token
+[1.663s]   186 |                 g_combined_data.odom_time, g_combined_data.total_run_time)[01;31m[K,[m[K
+[1.663s]       |                                                                           [01;31m[K^[m[K
+[1.663s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:186:75:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[4.392s] make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+[4.393s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+[4.393s] make: *** [Makefile:141: all] Error 2
+[4.396s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8

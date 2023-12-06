@@ -1,0 +1,21 @@
+[0.195s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+[0.230s] [35m[1mScanning dependencies of target cpp_pub_spiral[0m
+[0.232s] [35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[0.254s] [ 33%] Built target robot_motion_sub
+[0.259s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o[0m
+[0.265s] [ 66%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[0.386s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kcombined_data.hpp: No such file or directory
+[0.387s]     5 | #include [01;31m[K"combined_data.hpp"[m[K
+[0.387s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.387s] compilation terminated.
+[0.387s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kcombined_data.hpp: No such file or directory
+[0.387s]     6 | #include [01;31m[K"combined_data.hpp"[m[K
+[0.387s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.387s] compilation terminated.
+[0.389s] make[2]: *** [CMakeFiles/cpp_pub_spiral.dir/build.make:63: CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o] Error 1
+[0.390s] make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+[0.390s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/cpp_pub_spiral.dir/all] Error 2
+[0.390s] make[1]: *** Waiting for unfinished jobs....
+[0.390s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+[0.390s] make: *** [Makefile:141: all] Error 2
+[0.392s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8

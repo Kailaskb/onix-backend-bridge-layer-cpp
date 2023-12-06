@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:43:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   43 |     float [01;31m[Kodom_controller_temp[m[K
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                               [32m[K;[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:44:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   44 |     float [01;31m[Kodom_controller_voltage[m[K
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                  [32m[K;[m[K
+make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

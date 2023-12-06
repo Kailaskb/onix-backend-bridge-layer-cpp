@@ -1,0 +1,29 @@
+[35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[ 66%] Built target cpp_pub_spiral
+[ 66%] Built target robot_motion_sub
+[ 83%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In member function ‘[01m[Kvoid LocationSubscriber::location_callback(onix_backend_messages::msg::LocationInformations_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:97:22:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K->[m[K’ token
+   97 |         CombinedData [01;31m[K->[m[K x = msg->x;
+      |                      [01;31m[K^~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:98:22:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K->[m[K’ token
+   98 |         CombinedData [01;31m[K->[m[K y = msg->y;
+      |                      [01;31m[K^~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:99:22:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K->[m[K’ token
+   99 |         CombinedData [01;31m[K->[m[K angle = msg->angle;
+      |                      [01;31m[K^~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:100:22:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K->[m[K’ token
+  100 |         CombinedData [01;31m[K->[m[K confidence = msg->confidence;
+      |                      [01;31m[K^~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:101:22:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K->[m[K’ token
+  101 |         CombinedData [01;31m[K->[m[K current_station = msg->current_station;
+      |                      [01;31m[K^~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:102:22:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K->[m[K’ token
+  102 |         CombinedData [01;31m[K->[m[K last_station = msg->last_station;
+      |                      [01;31m[K^~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:91:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   91 |     void location_callback([01;35m[Kconst onix_backend_messages::msg::LocationInformations::SharedPtr msg[m[K)
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

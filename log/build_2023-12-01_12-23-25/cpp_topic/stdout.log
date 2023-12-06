@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target robot_motion_pub[0m
+[ 75%] Built target cpp_sub_spiral
+[ 75%] Built target cpp_pub_spiral
+[ 75%] Built target robot_motion_sub
+[ 87%] [32mBuilding CXX object CMakeFiles/robot_motion_pub.dir/src/robot_motion_pub.cpp.o[0m

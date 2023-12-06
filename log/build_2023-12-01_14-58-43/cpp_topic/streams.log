@@ -1,0 +1,13 @@
+[0.198s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+[0.238s] [35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[0.258s] [ 66%] Built target cpp_pub_spiral
+[0.258s] [ 66%] Built target robot_motion_sub
+[0.267s] [ 83%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[1.643s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In constructor ‘[01m[KCombinedSubscriber::CombinedSubscriber()[m[K’:
+[1.644s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:36:38:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+[1.644s]    36 |             "motion", 10, std::bind(&[01;31m[KMinimalSubscriber[m[K::topic_callback, this, std::placeholders::_1));
+[1.644s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.064s] make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+[3.064s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+[3.064s] make: *** [Makefile:141: all] Error 2
+[3.068s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8

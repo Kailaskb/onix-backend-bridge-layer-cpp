@@ -1,0 +1,10 @@
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:103:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kminimal_publisher[m[K’ was not declared in this scope
+  103 |     rclcpp::spin([01;31m[Kminimal_publisher[m[K);
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:104:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotion_minimal_publisher[m[K’ was not declared in this scope
+  104 |     rclcpp::spin([01;31m[Kmotion_minimal_publisher[m[K);
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,50 @@
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_sub.cpp:6:29:[m[K [01;31m[Kerror: [m[K‘[01m[KStatusData[m[K’ in namespace ‘[01m[Konix_backend_messages::msg[m[K’ does not name a type
+    6 | onix_backend_messages::msg::[01;31m[KStatusData[m[K g_location_data;
+      |                             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:6:29:[m[K [01;31m[Kerror: [m[K‘[01m[KStatusData[m[K’ in namespace ‘[01m[Konix_backend_messages::msg[m[K’ does not name a type
+    6 | onix_backend_messages::msg::[01;31m[KStatusData[m[K g_system_config_data;
+      |                             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(onix_backend_messages::msg::LocationInformations_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_sub.cpp:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kg_location_data[m[K’ was not declared in this scope
+   27 |         [01;31m[Kg_location_data[m[K.x = msg->x;
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_sub.cpp:2[m[K:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::timer_callback()[m[K’:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_sub.cpp:46:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kg_location_data[m[K’ was not declared in this scope
+   46 |                     [01;31m[Kg_location_data[m[K.x, g_location_data.y,
+      |                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(onix_backend_messages::msg::SystemConfig_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kg_system_config_data[m[K’ was not declared in this scope
+   28 |         [01;31m[Kg_system_config_data[m[K.mac_address = msg->mac_address;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:2[m[K:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::timer_callback()[m[K’:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:51:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kg_system_config_data[m[K’ was not declared in this scope
+   51 |                     [01;31m[Kg_system_config_data[m[K.mac_address.c_str(), g_system_config_data.time.c_str(),
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/robot_motion_sub.dir/build.make:63: CMakeFiles/robot_motion_sub.dir/src/robot_motion_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/robot_motion_sub.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

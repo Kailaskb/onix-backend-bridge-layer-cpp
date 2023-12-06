@@ -1,0 +1,67 @@
+[0.190s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+[0.219s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.245s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.417s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.465s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.469s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.581s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.636s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.638s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.782s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.818s] -- Found onix_backend_messages: 1.0.0 (/home/xcy/ros2_ws3/install/onix_backend_messages/share/onix_backend_messages/cmake)
+[0.882s] -- Configuring done
+[0.896s] -- Generating done
+[0.898s] -- Build files have been written to: /home/xcy/ros2_ws/build/cpp_topic
+[0.935s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[0.938s] [ 75%] Built target robot_motion_sub
+[2.390s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:109:51:[m[K [01;31m[Kerror: [m[K‘[01m[KStatusData[m[K’ is not a member of ‘[01m[Konix_backend_messages::msg[m[K’
+[2.390s]   109 |     rclcpp::Publisher<onix_backend_messages::msg::[01;31m[KStatusData[m[K>::SharedPtr publisher_;
+[2.390s]       |                                                   [01;31m[K^~~~~~~~~~[m[K
+[2.390s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:109:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.390s]   109 |     rclcpp::Publisher<onix_backend_messages::msg::StatusData[01;31m[K>[m[K::SharedPtr publisher_;
+[2.391s]       |                                                             [01;31m[K^[m[K
+[2.391s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:109:64:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.391s]   109 |     rclcpp::Publisher<onix_backend_messages::msg::StatusData>::[01;31m[KSharedPtr[m[K publisher_;
+[2.391s]       |                                                                [01;31m[K^~~~~~~~~[m[K
+[2.391s]       |                                                                         [32m[K;[m[K
+[2.392s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:109:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[2.392s]   109 |     rclcpp::Publisher<onix_backend_messages::msg::StatusData>::SharedPtr [01;31m[Kpublisher_[m[K;
+[2.392s]       |                                                                          [01;31m[K^~~~~~~~~~[m[K
+[2.392s]       |                                                                          [32m[Krcl_publisher_t[m[K
+[2.406s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In constructor ‘[01m[KCombinedSubscriber::CombinedSubscriber()[m[K’:
+[2.406s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:39:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[2.407s]    39 |         [01;31m[Kpublisher_[m[K = this->create_publisher<onix_backend_messages::msg::StatusData>("status_data", 10);
+[2.407s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.407s]       |         [32m[Krcl_publisher_t[m[K
+[2.407s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:39:73:[m[K [01;31m[Kerror: [m[K‘[01m[KStatusData[m[K’ is not a member of ‘[01m[Konix_backend_messages::msg[m[K’
+[2.407s]    39 |         publisher_ = this->create_publisher<onix_backend_messages::msg::[01;31m[KStatusData[m[K>("status_data", 10);
+[2.407s]       |                                                                         [01;31m[K^~~~~~~~~~[m[K
+[2.407s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:39:102:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KCombinedSubscriber::create_publisher<<expression error> >(const char [12], int)[m[K’
+[2.407s]    39 |         publisher_ = this->create_publisher<onix_backend_messages::msg::StatusData>("status_data", 10[01;31m[K)[m[K;
+[2.407s]       |                                                                                                      [01;31m[K^[m[K
+[2.407s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.408s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[2.408s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.408s]                  from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:3[m[K:
+[2.408s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[2.408s]   184 |   [01;36m[Kcreate_publisher[m[K(
+[2.408s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.408s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.408s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:39:102:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.408s]    39 |         publisher_ = this->create_publisher<onix_backend_messages::msg::StatusData>("status_data", 10[01;31m[K)[m[K;
+[2.408s]       |                                                                                                      [01;31m[K^[m[K
+[2.423s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In member function ‘[01m[Kvoid CombinedSubscriber::timer_callback()[m[K’:
+[2.423s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:79:37:[m[K [01;31m[Kerror: [m[K‘[01m[KStatusData[m[K’ is not a member of ‘[01m[Konix_backend_messages::msg[m[K’
+[2.423s]    79 |         onix_backend_messages::msg::[01;31m[KStatusData[m[K status_data_msg;
+[2.423s]       |                                     [01;31m[K^~~~~~~~~~[m[K
+[2.426s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:80:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus_data_msg[m[K’ was not declared in this scope
+[2.426s]    80 |         [01;31m[Kstatus_data_msg[m[K.mac_address = g_combined_data.mac_address;
+[2.426s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.428s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:92:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[2.428s]    92 |         [01;31m[Kpublisher_[m[K->publish(status_data_msg);
+[2.428s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.428s]       |         [32m[Krcl_publisher_t[m[K
+[4.613s] make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+[4.614s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+[4.614s] make: *** [Makefile:141: all] Error 2
+[4.616s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8

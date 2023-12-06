@@ -1,0 +1,3 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o[0m
+[ 83%] Built target cpp_sub_spiral
+[ 83%] Built target robot_motion_sub

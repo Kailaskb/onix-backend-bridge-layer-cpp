@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target cpp_pub_spiral[0m
+[ 66%] Built target robot_motion_sub
+[ 50%] Built target cpp_sub_spiral
+[ 83%] [32mBuilding CXX object CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o[0m

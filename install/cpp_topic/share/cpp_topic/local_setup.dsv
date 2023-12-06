@@ -1,2 +1,1 @@
-source;share/cpp_topic/environment/ament_prefix_path.sh
-source;share/cpp_topic/environment/path.sh
+/home/xcy/ros2_ws/build/cpp_topic/ament_cmake_environment_hooks/local_setup.dsv

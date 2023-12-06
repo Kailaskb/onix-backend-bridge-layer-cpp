@@ -1,0 +1,26 @@
+[0.186s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+[0.216s] [35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[0.240s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[7.499s] [100%] [32m[1mLinking CXX executable cpp_sub_spiral[0m
+[7.860s] [100%] Built target cpp_sub_spiral
+[7.871s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+[7.901s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --install /home/xcy/ros2_ws/build/cpp_topic
+[7.909s] -- Install configuration: ""
+[7.909s] -- Execute custom install script
+[7.909s] -- Up-to-date symlink: /home/xcy/ros2_ws/install/cpp_topic/lib/cpp_topic/cpp_sub_spiral
+[7.910s] -- Up-to-date symlink: /home/xcy/ros2_ws/install/cpp_topic/share/ament_index/resource_index/package_run_dependencies/cpp_topic
+[7.910s] -- Up-to-date symlink: /home/xcy/ros2_ws/install/cpp_topic/share/ament_index/resource_index/parent_prefix_path/cpp_topic
+[7.910s] -- Up-to-date symlink: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.sh
+[7.910s] -- Up-to-date symlink: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.dsv
+[7.911s] -- Up-to-date symlink: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/environment/path.sh
+[7.911s] -- Up-to-date symlink: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/environment/path.dsv
+[7.911s] -- Up-to-date symlink: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.bash
+[7.911s] -- Up-to-date symlink: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.sh
+[7.911s] -- Up-to-date symlink: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.zsh
+[7.912s] -- Up-to-date symlink: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/local_setup.dsv
+[7.912s] -- Symlinking: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/package.dsv
+[7.920s] -- Up-to-date symlink: /home/xcy/ros2_ws/install/cpp_topic/share/ament_index/resource_index/packages/cpp_topic
+[7.921s] -- Up-to-date symlink: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig.cmake
+[7.921s] -- Up-to-date symlink: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig-version.cmake
+[7.921s] -- Up-to-date symlink: /home/xcy/ros2_ws/install/cpp_topic/share/cpp_topic/package.xml
+[7.923s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --install /home/xcy/ros2_ws/build/cpp_topic

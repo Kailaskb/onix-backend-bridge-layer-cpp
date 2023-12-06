@@ -1,0 +1,75 @@
+[0.607s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+[0.717s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.812s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.518s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.677s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.692s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.099s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.333s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.338s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.957s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.093s] -- Found onix_backend_messages: 1.0.0 (/home/xcy/ros2_ws3/install/onix_backend_messages/share/onix_backend_messages/cmake)
+[3.398s] -- Configuring done
+[3.452s] -- Generating done
+[3.456s] -- Build files have been written to: /home/xcy/ros2_ws/build/cpp_topic
+[3.567s] [35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[3.567s] [35m[1mScanning dependencies of target cpp_pub_spiral[0m
+[3.697s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[3.700s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o[0m
+[11.863s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[11.864s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:20:67:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::chrono::duration<long int>::duration(double)[m[K’
+[11.865s]    20 |         timer_ = this->create_wall_timer(std::chrono::seconds(0.33[01;31m[K)[m[K,
+[11.865s]       |                                                                   [01;31m[K^[m[K
+[11.867s] In file included from [01m[K/usr/include/c++/9/mutex:39[m[K,
+[11.872s]                  from [01m[K/usr/include/c++/9/future:38[m[K,
+[11.874s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:18[m[K,
+[11.875s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[11.876s]                  from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:2[m[K:
+[11.877s] [01m[K/usr/include/c++/9/chrono:338:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Rep2, class _Period2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&)[m[K’
+[11.877s]   338 |    constexpr [01;36m[Kduration[m[K(const duration<_Rep2, _Period2>& __d)
+[11.878s]       |              [01;36m[K^~~~~~~~[m[K
+[11.878s] [01m[K/usr/include/c++/9/chrono:338:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.878s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:20:67:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kdouble[m[K’
+[11.878s]    20 |         timer_ = this->create_wall_timer(std::chrono::seconds(0.33[01;36m[K)[m[K,
+[11.879s]       |                                                                   [01;36m[K^[m[K
+[11.879s] In file included from [01m[K/usr/include/c++/9/mutex:39[m[K,
+[11.879s]                  from [01m[K/usr/include/c++/9/future:38[m[K,
+[11.879s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:18[m[K,
+[11.880s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[11.880s]                  from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:2[m[K:
+[11.880s] [01m[K/usr/include/c++/9/chrono:331:23:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Rep2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const _Rep2&)[m[K’
+[11.880s]   331 |    constexpr explicit [01;36m[Kduration[m[K(const _Rep2& __rep)
+[11.880s]       |                       [01;36m[K^~~~~~~~[m[K
+[11.881s] [01m[K/usr/include/c++/9/chrono:331:23:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.881s] In file included from [01m[K/usr/include/c++/9/bits/move.h:55[m[K,
+[11.881s]                  from [01m[K/usr/include/c++/9/bits/stl_pair.h:59[m[K,
+[11.881s]                  from [01m[K/usr/include/c++/9/bits/stl_algobase.h:64[m[K,
+[11.882s]                  from [01m[K/usr/include/c++/9/memory:62[m[K,
+[11.890s]                  from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:1[m[K:
+[11.901s] /usr/include/c++/9/type_traits: In substitution of ‘[01m[Ktemplate<class ... _Cond> using _Require = typename std::enable_if<std::__and_< <template-parameter-1-1> >::value>::type [with _Cond = {std::is_convertible<const double&, long int>, std::__or_<std::chrono::treat_as_floating_point<long int>, std::__not_<std::chrono::treat_as_floating_point<double> > >}][m[K’:
+[11.902s] [01m[K/usr/include/c++/9/chrono:328:27:[m[K   required from here
+[11.903s] [01m[K/usr/include/c++/9/type_traits:2048:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[11.904s]  2048 |     using [01;31m[K_Require[m[K = typename enable_if<__and_<_Cond...>::value>::type;
+[11.904s]       |           [01;31m[K^~~~~~~~[m[K
+[11.905s] In file included from [01m[K/usr/include/c++/9/mutex:39[m[K,
+[11.905s]                  from [01m[K/usr/include/c++/9/future:38[m[K,
+[11.905s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:18[m[K,
+[11.905s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[11.905s]                  from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:2[m[K:
+[11.906s] [01m[K/usr/include/c++/9/chrono:324:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep = long int; _Period = std::ratio<1>][m[K’
+[11.911s]   324 |  [01;36m[Kduration[m[K(const duration&) = default;
+[11.913s]       |  [01;36m[K^~~~~~~~[m[K
+[11.918s] [01m[K/usr/include/c++/9/chrono:324:11:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst std::chrono::duration<long int>&[m[K’
+[11.918s]   324 |  duration([01;36m[Kconst duration&[m[K) = default;
+[11.918s]       |           [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.920s] [01m[K/usr/include/c++/9/chrono:322:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::chrono::duration<_Rep, _Period>::duration() [with _Rep = long int; _Period = std::ratio<1>][m[K’
+[11.921s]   322 |  constexpr [01;36m[Kduration[m[K() = default;
+[11.927s]       |            [01;36m[K^~~~~~~~[m[K
+[11.933s] [01m[K/usr/include/c++/9/chrono:322:12:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[18.612s] make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+[18.612s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+[18.613s] make[1]: *** Waiting for unfinished jobs....
+[36.662s] [ 75%] [32m[1mLinking CXX executable cpp_pub_spiral[0m
+[38.519s] [ 75%] Built target cpp_pub_spiral
+[38.522s] make: *** [Makefile:141: all] Error 2
+[38.534s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8

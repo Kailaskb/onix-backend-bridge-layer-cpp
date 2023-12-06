@@ -54,7 +54,6 @@ CMAKE_BINARY_DIR = /home/xcy/ros2_ws/build/cpp_topic
 
 # The main recursive "all" target.
 all: CMakeFiles/cpp_sub_spiral.dir/all
-all: CMakeFiles/cpp_pub_spiral.dir/all
 
 .PHONY : all
 
@@ -65,7 +64,6 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/cpp_sub_spiral.dir/clean
-clean: CMakeFiles/cpp_pub_spiral.dir/clean
 clean: CMakeFiles/cpp_topic_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
@@ -78,7 +76,7 @@ clean: CMakeFiles/uninstall.dir/clean
 CMakeFiles/cpp_sub_spiral.dir/all:
 	$(MAKE) -f CMakeFiles/cpp_sub_spiral.dir/build.make CMakeFiles/cpp_sub_spiral.dir/depend
 	$(MAKE) -f CMakeFiles/cpp_sub_spiral.dir/build.make CMakeFiles/cpp_sub_spiral.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xcy/ros2_ws/build/cpp_topic/CMakeFiles --progress-num=3,4 "Built target cpp_sub_spiral"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xcy/ros2_ws/build/cpp_topic/CMakeFiles --progress-num=1,2 "Built target cpp_sub_spiral"
 .PHONY : CMakeFiles/cpp_sub_spiral.dir/all
 
 # Build rule for subdir invocation for target.
@@ -97,33 +95,6 @@ cpp_sub_spiral: CMakeFiles/cpp_sub_spiral.dir/rule
 CMakeFiles/cpp_sub_spiral.dir/clean:
 	$(MAKE) -f CMakeFiles/cpp_sub_spiral.dir/build.make CMakeFiles/cpp_sub_spiral.dir/clean
 .PHONY : CMakeFiles/cpp_sub_spiral.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/cpp_pub_spiral.dir
-
-# All Build rule for target.
-CMakeFiles/cpp_pub_spiral.dir/all:
-	$(MAKE) -f CMakeFiles/cpp_pub_spiral.dir/build.make CMakeFiles/cpp_pub_spiral.dir/depend
-	$(MAKE) -f CMakeFiles/cpp_pub_spiral.dir/build.make CMakeFiles/cpp_pub_spiral.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xcy/ros2_ws/build/cpp_topic/CMakeFiles --progress-num=1,2 "Built target cpp_pub_spiral"
-.PHONY : CMakeFiles/cpp_pub_spiral.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/cpp_pub_spiral.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xcy/ros2_ws/build/cpp_topic/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cpp_pub_spiral.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xcy/ros2_ws/build/cpp_topic/CMakeFiles 0
-.PHONY : CMakeFiles/cpp_pub_spiral.dir/rule
-
-# Convenience name for target.
-cpp_pub_spiral: CMakeFiles/cpp_pub_spiral.dir/rule
-
-.PHONY : cpp_pub_spiral
-
-# clean rule for target.
-CMakeFiles/cpp_pub_spiral.dir/clean:
-	$(MAKE) -f CMakeFiles/cpp_pub_spiral.dir/build.make CMakeFiles/cpp_pub_spiral.dir/clean
-.PHONY : CMakeFiles/cpp_pub_spiral.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/cpp_topic_uninstall.dir

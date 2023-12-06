@@ -16,18 +16,22 @@ find_package(geometry_msgs REQUIRED)
 find_package(onix_backend_messages REQUIRED)
 
 set(dependencies "geometry_msgs" "rclcpp")
-add_executable(cpp_pub_spiral src/cpp_pub_spiral.cpp)
-ament_target_dependencies(cpp_pub_spiral ${dependencies})
-ament_target_dependencies(cpp_pub_spiral rclcpp onix_backend_messages)
-
+# add_executable(cpp_pub_spiral src/cpp_pub_spiral.cpp)
+# ament_target_dependencies(cpp_pub_spiral ${dependencies})
+# ament_target_dependencies(cpp_pub_spiral rclcpp onix_backend_messages)
 
 add_executable(cpp_sub_spiral src/cpp_sub_spiral.cpp)
 ament_target_dependencies(cpp_sub_spiral ${dependencies})
 ament_target_dependencies(cpp_sub_spiral rclcpp onix_backend_messages)
 
+# add_executable(robot_motion_sub src/robot_motion_sub.cpp)
+# ament_target_dependencies(robot_motion_sub ${dependencies})
+# ament_target_dependencies(robot_motion_sub rclcpp onix_backend_messages)
+
 install(TARGETS
-  cpp_pub_spiral
+  # cpp_pub_spiral
   cpp_sub_spiral
+  # robot_motion_sub
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

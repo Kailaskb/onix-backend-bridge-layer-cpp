@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target cpp_pub_spiral[0m
+[ 66%] Built target robot_motion_sub
+[ 66%] Built target cpp_sub_spiral
+[ 83%] [32mBuilding CXX object CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o[0m
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Konix_backend_messages/msg/StatusData.hpp: No such file or directory
+    4 | #include [01;31m[K"onix_backend_messages/msg/StatusData.hpp"[m[K  // Include the generated header for your custom message
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/cpp_pub_spiral.dir/build.make:63: CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/cpp_pub_spiral.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

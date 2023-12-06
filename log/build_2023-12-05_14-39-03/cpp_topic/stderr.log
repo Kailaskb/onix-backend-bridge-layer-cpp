@@ -1,0 +1,87 @@
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:183:77:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[Krclcpp::Subscription<onix_backend_messages::msg::LocationInformations_<std::allocator<void> > >[m[K’ is not a base type for type ‘[01m[KCombinedSubscriber[m[K’
+  183 |     rclcpp::Subscription<onix_backend_messages::msg::LocationInformations>::[01;31m[KShamotion[m[K;
+      |                                                                             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In constructor ‘[01m[KCombinedSubscriber::CombinedSubscriber()[m[K’:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:57:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klocation_subscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmotion_subscription_[m[K’?
+   57 |         [01;31m[Klocation_subscription_[m[K = this->create_subscription<onix_backend_messages::msg::LocationInformations>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kmotion_subscription_[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In member function ‘[01m[Kvoid CombinedSubscriber::motion_callback(onix_backend_messages::msg::MotionInformations_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:102:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<onix_backend_messages::msg::MotionInformations_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kvx[m[K’
+  102 |         g_combined_data.vx = msg.[01;31m[Kvx[m[K;
+      |                                  [01;31m[K^~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:103:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<onix_backend_messages::msg::MotionInformations_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kvy[m[K’
+  103 |         g_combined_data.vy = msg.[01;31m[Kvy[m[K;
+      |                                  [01;31m[K^~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:104:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<onix_backend_messages::msg::MotionInformations_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kw[m[K’
+  104 |         g_combined_data.w = msg.[01;31m[Kw[m[K;
+      |                                 [01;31m[K^[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:105:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<onix_backend_messages::msg::MotionInformations_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Ksteer[m[K’
+  105 |         g_combined_data.steer = msg.[01;31m[Ksteer[m[K;
+      |                                     [01;31m[K^~~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:106:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<onix_backend_messages::msg::MotionInformations_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kspin[m[K’
+  106 |         g_combined_data.spin = msg.[01;31m[Kspin[m[K;
+      |                                    [01;31m[K^~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:107:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<onix_backend_messages::msg::MotionInformations_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kr_vx[m[K’
+  107 |         g_combined_data.r_vx = msg.[01;31m[Kr_vx[m[K;
+      |                                    [01;31m[K^~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:108:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<onix_backend_messages::msg::MotionInformations_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kr_vy[m[K’
+  108 |         g_combined_data.r_vy = msg.[01;31m[Kr_vy[m[K;
+      |                                    [01;31m[K^~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:109:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<onix_backend_messages::msg::MotionInformations_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kr_w[m[K’
+  109 |         g_combined_data.r_w = msg.[01;31m[Kr_w[m[K;
+      |                                   [01;31m[K^~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:110:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<onix_backend_messages::msg::MotionInformations_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kr_steer[m[K’
+  110 |         g_combined_data.r_steer = msg.[01;31m[Kr_steer[m[K;
+      |                                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:111:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<onix_backend_messages::msg::MotionInformations_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kr_spin[m[K’
+  111 |         g_combined_data.r_spin = msg.[01;31m[Kr_spin[m[K;
+      |                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:112:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<onix_backend_messages::msg::MotionInformations_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Ksteer_angles[m[K’
+  112 |         g_combined_data.steer_angles = msg.[01;31m[Ksteer_angles[m[K;
+      |                                            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:113:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<onix_backend_messages::msg::MotionInformations_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kr_steer_angles[m[K’
+  113 |         g_combined_data.r_steer_angles = msg.[01;31m[Kr_steer_angles[m[K;
+      |                                              [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:114:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<onix_backend_messages::msg::MotionInformations_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kis_stop[m[K’
+  114 |         g_combined_data.is_stop = msg.[01;31m[Kis_stop[m[K;
+      |                                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:115:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<onix_backend_messages::msg::MotionInformations_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kodo[m[K’
+  115 |         g_combined_data.odo = msg.[01;31m[Kodo[m[K;
+      |                                   [01;31m[K^~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:116:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<onix_backend_messages::msg::MotionInformations_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Ktoday_odo[m[K’
+  116 |         g_combined_data.today_odo = msg.[01;31m[Ktoday_odo[m[K;
+      |                                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:117:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<onix_backend_messages::msg::MotionInformations_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Ktime[m[K’
+  117 |         g_combined_data.odom_time = msg.[01;31m[Ktime[m[K;
+      |                                         [01;31m[K^~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:118:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<onix_backend_messages::msg::MotionInformations_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Ktotal_run_time[m[K’
+  118 |         g_combined_data.total_run_time = msg.[01;31m[Ktotal_run_time[m[K;
+      |                                              [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In member function ‘[01m[Kvoid CombinedSubscriber::timer_callback()[m[K’:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:144:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksteer[m[K’; did you mean ‘[01m[Kr_steer[m[K’?
+  144 |         status_data_msg.[01;31m[Ksteer[m[K = g_combined_data.steer;
+      |                         [01;31m[K^~~~~[m[K
+      |                         [32m[Kr_steer[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:151:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksteer_angles[m[K’; did you mean ‘[01m[Ksteer_angle[m[K’?
+  151 |         status_data_msg.[01;31m[Ksteer_angles[m[K = g_combined_data.steer_angles;
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+      |                         [32m[Ksteer_angle[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:152:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kr_steer_angles[m[K’; did you mean ‘[01m[Kr_steer_angle[m[K’?
+  152 |         status_data_msg.[01;31m[Kr_steer_angles[m[K = g_combined_data.r_steer_angles;
+      |                         [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                         [32m[Kr_steer_angle[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:155:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktoday_odo[m[K’; did you mean ‘[01m[Ktodays_odo[m[K’?
+  155 |         status_data_msg.[01;31m[Ktoday_odo[m[K = g_combined_data.today_odo;
+      |                         [01;31m[K^~~~~~~~~[m[K
+      |                         [32m[Ktodays_odo[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:156:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kodom_time[m[K’
+  156 |         status_data_msg.[01;31m[Kodom_time[m[K = g_combined_data.odom_time;
+      |                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:157:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktotal_run_time[m[K’; did you mean ‘[01m[Ktotal_time[m[K’?
+  157 |         status_data_msg.[01;31m[Ktotal_run_time[m[K = g_combined_data.total_run_time;
+      |                         [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                         [32m[Ktotal_time[m[K
+make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

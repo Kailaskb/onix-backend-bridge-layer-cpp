@@ -1,0 +1,18 @@
+[0.182s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+[0.215s] [35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[0.239s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[1.523s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In member function ‘[01m[Kvoid CombinedSubscriber::motion_callback(onix_backend_messages::msg::MotionInformations_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.523s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:113:45:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Konix_backend_messages::msg::MotionInformations_<std::allocator<void> >::_steer_angles_type[m[K’ {aka ‘[01m[Kstd::vector<float>[m[K’} to ‘[01m[Kfloat[m[K’ in assignment
+[1.523s]   113 |         g_combined_data.steer_angles = [01;31m[Kmsg->steer_angles[m[K;
+[1.523s]       |                                        [01;31m[K~~~~~^~~~~~~~~~~~[m[K
+[1.523s]       |                                             [01;31m[K|[m[K
+[1.524s]       |                                             [01;31m[Konix_backend_messages::msg::MotionInformations_<std::allocator<void> >::_steer_angles_type {aka std::vector<float>}[m[K
+[1.524s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:114:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Konix_backend_messages::msg::MotionInformations_<std::allocator<void> >::_r_steer_angles_type[m[K’ {aka ‘[01m[Kstd::vector<float>[m[K’} to ‘[01m[Kfloat[m[K’ in assignment
+[1.524s]   114 |         g_combined_data.r_steer_angles = [01;31m[Kmsg->r_steer_angles[m[K;
+[1.524s]       |                                          [01;31m[K~~~~~^~~~~~~~~~~~~~[m[K
+[1.524s]       |                                               [01;31m[K|[m[K
+[1.524s]       |                                               [01;31m[Konix_backend_messages::msg::MotionInformations_<std::allocator<void> >::_r_steer_angles_type {aka std::vector<float>}[m[K
+[4.182s] make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+[4.182s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+[4.182s] make: *** [Makefile:141: all] Error 2
+[4.184s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8

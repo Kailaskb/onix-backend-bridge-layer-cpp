@@ -6,6 +6,5 @@
 /home/xcy/ros2_ws/build/cpp_topic/CMakeFiles/test.dir
 /home/xcy/ros2_ws/build/cpp_topic/CMakeFiles/cpp_sub_spiral.dir
 /home/xcy/ros2_ws/build/cpp_topic/CMakeFiles/install/strip.dir
-/home/xcy/ros2_ws/build/cpp_topic/CMakeFiles/cpp_pub_spiral.dir
 /home/xcy/ros2_ws/build/cpp_topic/CMakeFiles/cpp_topic_uninstall.dir
 /home/xcy/ros2_ws/build/cpp_topic/CMakeFiles/uninstall.dir

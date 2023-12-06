@@ -1,0 +1,470 @@
+[0.000000] (-) TimerEvent: {}
+[0.000312] (cpp_topic) JobQueued: {'identifier': 'cpp_topic', 'dependencies': OrderedDict()}
+[0.001226] (cpp_topic) JobStarted: {'identifier': 'cpp_topic'}
+[0.099301] (-) TimerEvent: {}
+[0.202348] (-) TimerEvent: {}
+[0.304309] (-) TimerEvent: {}
+[0.406495] (-) TimerEvent: {}
+[0.510491] (-) TimerEvent: {}
+[0.587975] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'cmake'}
+[0.592478] (cpp_topic) JobProgress: {'identifier': 'cpp_topic', 'progress': 'build'}
+[0.594526] (cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xcy/ros2_ws/build/cpp_topic', '--', '-j8', '-l8'], 'cwd': '/home/xcy/ros2_ws/build/cpp_topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xcy'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1224'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/xcy'), ('OLDPWD', '/home/xcy'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/xcy/.nvm/versions/node/v16.17.1/bin'), ('NVM_INC', '/home/xcy/.nvm/versions/node/v16.17.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_DOMAIN_IeD', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/xcy/.nvm'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'xcy'), ('JOURNAL_STREAM', '8:38181'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xcy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/xcy/.nvm/versions/node/v16.17.1/bin:/opt/ros/foxy/bin:/home/xcy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/xcy-Default-string:@/tmp/.ICE-unix/1271,unix/xcy-Default-string:/tmp/.ICE-unix/1271'), ('INVOCATION_ID', '225e642416f34a6c9416e692d16e4698'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/024f645c_40e8_477f_8e0f_70b3b8002807'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xcy/ros2_ws/build/cpp_topic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.610675] (-) TimerEvent: {}
+[0.717913] (-) TimerEvent: {}
+[0.718414] (cpp_topic) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.813343] (cpp_topic) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.818172] (-) TimerEvent: {}
+[0.918910] (-) TimerEvent: {}
+[1.020833] (-) TimerEvent: {}
+[1.122110] (-) TimerEvent: {}
+[1.222996] (-) TimerEvent: {}
+[1.325609] (-) TimerEvent: {}
+[1.426425] (-) TimerEvent: {}
+[1.518936] (cpp_topic) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.526607] (-) TimerEvent: {}
+[1.628001] (-) TimerEvent: {}
+[1.677878] (cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.693014] (cpp_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.728104] (-) TimerEvent: {}
+[1.828682] (-) TimerEvent: {}
+[1.929708] (-) TimerEvent: {}
+[2.032363] (-) TimerEvent: {}
+[2.100191] (cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.132448] (-) TimerEvent: {}
+[2.234067] (-) TimerEvent: {}
+[2.333647] (cpp_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.334253] (-) TimerEvent: {}
+[2.338841] (cpp_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.434593] (-) TimerEvent: {}
+[2.535593] (-) TimerEvent: {}
+[2.636811] (-) TimerEvent: {}
+[2.737205] (-) TimerEvent: {}
+[2.837811] (-) TimerEvent: {}
+[2.939659] (-) TimerEvent: {}
+[2.958194] (cpp_topic) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[3.039711] (-) TimerEvent: {}
+[3.093651] (cpp_topic) StdoutLine: {'line': b'-- Found onix_backend_messages: 1.0.0 (/home/xcy/ros2_ws3/install/onix_backend_messages/share/onix_backend_messages/cmake)\n'}
+[3.139863] (-) TimerEvent: {}
+[3.240491] (-) TimerEvent: {}
+[3.342143] (-) TimerEvent: {}
+[3.398682] (cpp_topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.442281] (-) TimerEvent: {}
+[3.453279] (cpp_topic) StdoutLine: {'line': b'-- Generating done\n'}
+[3.457377] (cpp_topic) StdoutLine: {'line': b'-- Build files have been written to: /home/xcy/ros2_ws/build/cpp_topic\n'}
+[3.542647] (-) TimerEvent: {}
+[3.567749] (cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_sub_spiral\x1b[0m\n'}
+[3.568102] (cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_pub_spiral\x1b[0m\n'}
+[3.643073] (-) TimerEvent: {}
+[3.697822] (cpp_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o\x1b[0m\n'}
+[3.700726] (cpp_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o\x1b[0m\n'}
+[3.743260] (-) TimerEvent: {}
+[3.844112] (-) TimerEvent: {}
+[3.945375] (-) TimerEvent: {}
+[4.047500] (-) TimerEvent: {}
+[4.148401] (-) TimerEvent: {}
+[4.249610] (-) TimerEvent: {}
+[4.350973] (-) TimerEvent: {}
+[4.452313] (-) TimerEvent: {}
+[4.553329] (-) TimerEvent: {}
+[4.655010] (-) TimerEvent: {}
+[4.757154] (-) TimerEvent: {}
+[4.858454] (-) TimerEvent: {}
+[4.960328] (-) TimerEvent: {}
+[5.060864] (-) TimerEvent: {}
+[5.161656] (-) TimerEvent: {}
+[5.263589] (-) TimerEvent: {}
+[5.364376] (-) TimerEvent: {}
+[5.465010] (-) TimerEvent: {}
+[5.566467] (-) TimerEvent: {}
+[5.667448] (-) TimerEvent: {}
+[5.768150] (-) TimerEvent: {}
+[5.873472] (-) TimerEvent: {}
+[5.974569] (-) TimerEvent: {}
+[6.075123] (-) TimerEvent: {}
+[6.177525] (-) TimerEvent: {}
+[6.278291] (-) TimerEvent: {}
+[6.380176] (-) TimerEvent: {}
+[6.483498] (-) TimerEvent: {}
+[6.584528] (-) TimerEvent: {}
+[6.686224] (-) TimerEvent: {}
+[6.786763] (-) TimerEvent: {}
+[6.887778] (-) TimerEvent: {}
+[6.990411] (-) TimerEvent: {}
+[7.091252] (-) TimerEvent: {}
+[7.192023] (-) TimerEvent: {}
+[7.293818] (-) TimerEvent: {}
+[7.394348] (-) TimerEvent: {}
+[7.495025] (-) TimerEvent: {}
+[7.596831] (-) TimerEvent: {}
+[7.698035] (-) TimerEvent: {}
+[7.798514] (-) TimerEvent: {}
+[7.899543] (-) TimerEvent: {}
+[8.000831] (-) TimerEvent: {}
+[8.101638] (-) TimerEvent: {}
+[8.206084] (-) TimerEvent: {}
+[8.306875] (-) TimerEvent: {}
+[8.407869] (-) TimerEvent: {}
+[8.509450] (-) TimerEvent: {}
+[8.610245] (-) TimerEvent: {}
+[8.711933] (-) TimerEvent: {}
+[8.814686] (-) TimerEvent: {}
+[8.915538] (-) TimerEvent: {}
+[9.016754] (-) TimerEvent: {}
+[9.119251] (-) TimerEvent: {}
+[9.221444] (-) TimerEvent: {}
+[9.322527] (-) TimerEvent: {}
+[9.424342] (-) TimerEvent: {}
+[9.524937] (-) TimerEvent: {}
+[9.625805] (-) TimerEvent: {}
+[9.728567] (-) TimerEvent: {}
+[9.828976] (-) TimerEvent: {}
+[9.929807] (-) TimerEvent: {}
+[10.031665] (-) TimerEvent: {}
+[10.132469] (-) TimerEvent: {}
+[10.233307] (-) TimerEvent: {}
+[10.336734] (-) TimerEvent: {}
+[10.437619] (-) TimerEvent: {}
+[10.538317] (-) TimerEvent: {}
+[10.640504] (-) TimerEvent: {}
+[10.740997] (-) TimerEvent: {}
+[10.841813] (-) TimerEvent: {}
+[10.944658] (-) TimerEvent: {}
+[11.045949] (-) TimerEvent: {}
+[11.146886] (-) TimerEvent: {}
+[11.248649] (-) TimerEvent: {}
+[11.349617] (-) TimerEvent: {}
+[11.450380] (-) TimerEvent: {}
+[11.552291] (-) TimerEvent: {}
+[11.653451] (-) TimerEvent: {}
+[11.754749] (-) TimerEvent: {}
+[11.856795] (-) TimerEvent: {}
+[11.863540] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber::MinimalSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.864938] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:20:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int>::duration(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.865896] (cpp_topic) StderrLine: {'line': b'   20 |         timer_ = this->create_wall_timer(std::chrono::seconds(0.33\x1b[01;31m\x1b[K)\x1b[m\x1b[K,\n'}
+[11.866224] (cpp_topic) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.868354] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/mutex:39\x1b[m\x1b[K,\n'}
+[11.868847] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/future:38\x1b[m\x1b[K,\n'}
+[11.873904] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[11.875677] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[11.877027] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:2\x1b[m\x1b[K:\n'}
+[11.877967] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/chrono:338:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep2, class _Period2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.878408] (cpp_topic) StderrLine: {'line': b'  338 |    constexpr \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const duration<_Rep2, _Period2>& __d)\n'}
+[11.878665] (cpp_topic) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.878925] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/chrono:338:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.879171] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:20:67:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<_Rep1, _Period1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.879478] (cpp_topic) StderrLine: {'line': b'   20 |         timer_ = this->create_wall_timer(std::chrono::seconds(0.33\x1b[01;36m\x1b[K)\x1b[m\x1b[K,\n'}
+[11.879808] (cpp_topic) StderrLine: {'line': b'      |                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[11.880125] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/mutex:39\x1b[m\x1b[K,\n'}
+[11.880348] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/future:38\x1b[m\x1b[K,\n'}
+[11.880532] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[11.880694] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[11.880869] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:2\x1b[m\x1b[K:\n'}
+[11.881040] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/chrono:331:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const _Rep2&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.881269] (cpp_topic) StderrLine: {'line': b'  331 |    constexpr explicit \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const _Rep2& __rep)\n'}
+[11.881526] (cpp_topic) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.881769] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/chrono:331:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.882001] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/move.h:55\x1b[m\x1b[K,\n'}
+[11.882213] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[11.882406] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[11.882688] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:62\x1b[m\x1b[K,\n'}
+[11.889780] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:1\x1b[m\x1b[K:\n'}
+[11.899992] (cpp_topic) StderrLine: {'line': b'/usr/include/c++/9/type_traits: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _Cond> using _Require = typename std::enable_if<std::__and_< <template-parameter-1-1> >::value>::type [with _Cond = {std::is_convertible<const double&, long int>, std::__or_<std::chrono::treat_as_floating_point<long int>, std::__not_<std::chrono::treat_as_floating_point<double> > >}]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.902889] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/chrono:328:27:\x1b[m\x1b[K   required from here\n'}
+[11.904181] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/type_traits:2048:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.905011] (cpp_topic) StderrLine: {'line': b' 2048 |     using \x1b[01;31m\x1b[K_Require\x1b[m\x1b[K = typename enable_if<__and_<_Cond...>::value>::type;\n'}
+[11.905479] (cpp_topic) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.905700] (cpp_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/mutex:39\x1b[m\x1b[K,\n'}
+[11.905904] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/future:38\x1b[m\x1b[K,\n'}
+[11.906060] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[11.906216] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[11.906387] (cpp_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:2\x1b[m\x1b[K:\n'}
+[11.906630] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/chrono:324:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.906941] (cpp_topic) StderrLine: {'line': b'  324 |  \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K(const duration&) = default;\n'}
+[11.913258] (cpp_topic) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.915258] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/chrono:324:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<long int>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.919162] (cpp_topic) StderrLine: {'line': b'  324 |  duration(\x1b[01;36m\x1b[Kconst duration&\x1b[m\x1b[K) = default;\n'}
+[11.919425] (cpp_topic) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.919712] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/chrono:322:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<_Rep, _Period>::duration() [with _Rep = long int; _Period = std::ratio<1>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.921978] (cpp_topic) StderrLine: {'line': b'  322 |  constexpr \x1b[01;36m\x1b[Kduration\x1b[m\x1b[K() = default;\n'}
+[11.922296] (cpp_topic) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.933544] (cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/chrono:322:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[11.957039] (-) TimerEvent: {}
+[12.058145] (-) TimerEvent: {}
+[12.160753] (-) TimerEvent: {}
+[12.261479] (-) TimerEvent: {}
+[12.363847] (-) TimerEvent: {}
+[12.466703] (-) TimerEvent: {}
+[12.567749] (-) TimerEvent: {}
+[12.672076] (-) TimerEvent: {}
+[12.773129] (-) TimerEvent: {}
+[12.874765] (-) TimerEvent: {}
+[12.975757] (-) TimerEvent: {}
+[13.077289] (-) TimerEvent: {}
+[13.178131] (-) TimerEvent: {}
+[13.281120] (-) TimerEvent: {}
+[13.382343] (-) TimerEvent: {}
+[13.483251] (-) TimerEvent: {}
+[13.585075] (-) TimerEvent: {}
+[13.686440] (-) TimerEvent: {}
+[13.787210] (-) TimerEvent: {}
+[13.890957] (-) TimerEvent: {}
+[13.995777] (-) TimerEvent: {}
+[14.097238] (-) TimerEvent: {}
+[14.198631] (-) TimerEvent: {}
+[14.299374] (-) TimerEvent: {}
+[14.401185] (-) TimerEvent: {}
+[14.503272] (-) TimerEvent: {}
+[14.604706] (-) TimerEvent: {}
+[14.707726] (-) TimerEvent: {}
+[14.808375] (-) TimerEvent: {}
+[14.909144] (-) TimerEvent: {}
+[15.011502] (-) TimerEvent: {}
+[15.112409] (-) TimerEvent: {}
+[15.213476] (-) TimerEvent: {}
+[15.317874] (-) TimerEvent: {}
+[15.418971] (-) TimerEvent: {}
+[15.520266] (-) TimerEvent: {}
+[15.620837] (-) TimerEvent: {}
+[15.721432] (-) TimerEvent: {}
+[15.823341] (-) TimerEvent: {}
+[15.924763] (-) TimerEvent: {}
+[16.027099] (-) TimerEvent: {}
+[16.131209] (-) TimerEvent: {}
+[16.231678] (-) TimerEvent: {}
+[16.333191] (-) TimerEvent: {}
+[16.435304] (-) TimerEvent: {}
+[16.536676] (-) TimerEvent: {}
+[16.639252] (-) TimerEvent: {}
+[16.740308] (-) TimerEvent: {}
+[16.841305] (-) TimerEvent: {}
+[16.943945] (-) TimerEvent: {}
+[17.045766] (-) TimerEvent: {}
+[17.147972] (-) TimerEvent: {}
+[17.250030] (-) TimerEvent: {}
+[17.350931] (-) TimerEvent: {}
+[17.452761] (-) TimerEvent: {}
+[17.554853] (-) TimerEvent: {}
+[17.655607] (-) TimerEvent: {}
+[17.757890] (-) TimerEvent: {}
+[17.860326] (-) TimerEvent: {}
+[17.961513] (-) TimerEvent: {}
+[18.063133] (-) TimerEvent: {}
+[18.164278] (-) TimerEvent: {}
+[18.265023] (-) TimerEvent: {}
+[18.368192] (-) TimerEvent: {}
+[18.475137] (-) TimerEvent: {}
+[18.577659] (-) TimerEvent: {}
+[18.613113] (cpp_topic) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1\n'}
+[18.613503] (cpp_topic) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/cpp_sub_spiral.dir/all] Error 2\n'}
+[18.613691] (cpp_topic) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[18.677771] (-) TimerEvent: {}
+[18.778501] (-) TimerEvent: {}
+[18.881475] (-) TimerEvent: {}
+[18.982234] (-) TimerEvent: {}
+[19.083020] (-) TimerEvent: {}
+[19.185614] (-) TimerEvent: {}
+[19.286882] (-) TimerEvent: {}
+[19.387728] (-) TimerEvent: {}
+[19.489964] (-) TimerEvent: {}
+[19.590963] (-) TimerEvent: {}
+[19.693485] (-) TimerEvent: {}
+[19.796589] (-) TimerEvent: {}
+[19.897364] (-) TimerEvent: {}
+[19.999185] (-) TimerEvent: {}
+[20.100866] (-) TimerEvent: {}
+[20.201833] (-) TimerEvent: {}
+[20.306261] (-) TimerEvent: {}
+[20.407142] (-) TimerEvent: {}
+[20.508387] (-) TimerEvent: {}
+[20.611949] (-) TimerEvent: {}
+[20.712993] (-) TimerEvent: {}
+[20.814531] (-) TimerEvent: {}
+[20.915056] (-) TimerEvent: {}
+[21.015452] (-) TimerEvent: {}
+[21.116180] (-) TimerEvent: {}
+[21.217511] (-) TimerEvent: {}
+[21.318028] (-) TimerEvent: {}
+[21.418654] (-) TimerEvent: {}
+[21.519489] (-) TimerEvent: {}
+[21.620012] (-) TimerEvent: {}
+[21.720705] (-) TimerEvent: {}
+[21.822408] (-) TimerEvent: {}
+[21.923308] (-) TimerEvent: {}
+[22.024455] (-) TimerEvent: {}
+[22.125410] (-) TimerEvent: {}
+[22.226608] (-) TimerEvent: {}
+[22.327015] (-) TimerEvent: {}
+[22.428437] (-) TimerEvent: {}
+[22.533050] (-) TimerEvent: {}
+[22.634148] (-) TimerEvent: {}
+[22.738071] (-) TimerEvent: {}
+[22.838614] (-) TimerEvent: {}
+[22.939344] (-) TimerEvent: {}
+[23.041076] (-) TimerEvent: {}
+[23.143003] (-) TimerEvent: {}
+[23.244921] (-) TimerEvent: {}
+[23.347084] (-) TimerEvent: {}
+[23.447751] (-) TimerEvent: {}
+[23.549363] (-) TimerEvent: {}
+[23.650583] (-) TimerEvent: {}
+[23.751534] (-) TimerEvent: {}
+[23.852493] (-) TimerEvent: {}
+[23.954005] (-) TimerEvent: {}
+[24.055186] (-) TimerEvent: {}
+[24.157256] (-) TimerEvent: {}
+[24.258671] (-) TimerEvent: {}
+[24.359804] (-) TimerEvent: {}
+[24.461425] (-) TimerEvent: {}
+[24.566934] (-) TimerEvent: {}
+[24.668018] (-) TimerEvent: {}
+[24.769776] (-) TimerEvent: {}
+[24.870338] (-) TimerEvent: {}
+[24.971608] (-) TimerEvent: {}
+[25.073538] (-) TimerEvent: {}
+[25.174137] (-) TimerEvent: {}
+[25.274890] (-) TimerEvent: {}
+[25.377277] (-) TimerEvent: {}
+[25.478428] (-) TimerEvent: {}
+[25.579729] (-) TimerEvent: {}
+[25.681540] (-) TimerEvent: {}
+[25.782258] (-) TimerEvent: {}
+[25.883629] (-) TimerEvent: {}
+[25.985728] (-) TimerEvent: {}
+[26.086663] (-) TimerEvent: {}
+[26.187475] (-) TimerEvent: {}
+[26.293113] (-) TimerEvent: {}
+[26.395292] (-) TimerEvent: {}
+[26.498315] (-) TimerEvent: {}
+[26.598637] (-) TimerEvent: {}
+[26.702260] (-) TimerEvent: {}
+[26.804350] (-) TimerEvent: {}
+[26.905308] (-) TimerEvent: {}
+[27.011851] (-) TimerEvent: {}
+[27.112287] (-) TimerEvent: {}
+[27.213067] (-) TimerEvent: {}
+[27.314280] (-) TimerEvent: {}
+[27.415647] (-) TimerEvent: {}
+[27.516568] (-) TimerEvent: {}
+[27.617802] (-) TimerEvent: {}
+[27.718823] (-) TimerEvent: {}
+[27.820753] (-) TimerEvent: {}
+[27.921504] (-) TimerEvent: {}
+[28.023201] (-) TimerEvent: {}
+[28.124095] (-) TimerEvent: {}
+[28.224592] (-) TimerEvent: {}
+[28.325452] (-) TimerEvent: {}
+[28.426901] (-) TimerEvent: {}
+[28.530886] (-) TimerEvent: {}
+[28.632466] (-) TimerEvent: {}
+[28.737809] (-) TimerEvent: {}
+[28.838941] (-) TimerEvent: {}
+[28.940600] (-) TimerEvent: {}
+[29.042576] (-) TimerEvent: {}
+[29.143689] (-) TimerEvent: {}
+[29.244971] (-) TimerEvent: {}
+[29.347583] (-) TimerEvent: {}
+[29.449113] (-) TimerEvent: {}
+[29.559387] (-) TimerEvent: {}
+[29.660738] (-) TimerEvent: {}
+[29.762710] (-) TimerEvent: {}
+[29.864804] (-) TimerEvent: {}
+[29.966553] (-) TimerEvent: {}
+[30.069045] (-) TimerEvent: {}
+[30.171486] (-) TimerEvent: {}
+[30.274479] (-) TimerEvent: {}
+[30.386496] (-) TimerEvent: {}
+[30.488323] (-) TimerEvent: {}
+[30.591215] (-) TimerEvent: {}
+[30.692136] (-) TimerEvent: {}
+[30.793717] (-) TimerEvent: {}
+[30.894578] (-) TimerEvent: {}
+[30.995653] (-) TimerEvent: {}
+[31.097448] (-) TimerEvent: {}
+[31.197935] (-) TimerEvent: {}
+[31.298849] (-) TimerEvent: {}
+[31.403530] (-) TimerEvent: {}
+[31.504080] (-) TimerEvent: {}
+[31.605269] (-) TimerEvent: {}
+[31.706999] (-) TimerEvent: {}
+[31.807442] (-) TimerEvent: {}
+[31.909223] (-) TimerEvent: {}
+[32.011225] (-) TimerEvent: {}
+[32.111659] (-) TimerEvent: {}
+[32.212435] (-) TimerEvent: {}
+[32.314292] (-) TimerEvent: {}
+[32.414878] (-) TimerEvent: {}
+[32.519900] (-) TimerEvent: {}
+[32.621024] (-) TimerEvent: {}
+[32.722278] (-) TimerEvent: {}
+[32.824136] (-) TimerEvent: {}
+[32.924911] (-) TimerEvent: {}
+[33.025815] (-) TimerEvent: {}
+[33.126796] (-) TimerEvent: {}
+[33.227430] (-) TimerEvent: {}
+[33.328083] (-) TimerEvent: {}
+[33.428885] (-) TimerEvent: {}
+[33.531912] (-) TimerEvent: {}
+[33.632802] (-) TimerEvent: {}
+[33.734725] (-) TimerEvent: {}
+[33.836292] (-) TimerEvent: {}
+[33.937775] (-) TimerEvent: {}
+[34.039982] (-) TimerEvent: {}
+[34.141459] (-) TimerEvent: {}
+[34.242012] (-) TimerEvent: {}
+[34.343114] (-) TimerEvent: {}
+[34.446740] (-) TimerEvent: {}
+[34.548343] (-) TimerEvent: {}
+[34.649155] (-) TimerEvent: {}
+[34.750707] (-) TimerEvent: {}
+[34.852653] (-) TimerEvent: {}
+[34.955186] (-) TimerEvent: {}
+[35.056820] (-) TimerEvent: {}
+[35.158595] (-) TimerEvent: {}
+[35.260978] (-) TimerEvent: {}
+[35.361846] (-) TimerEvent: {}
+[35.462637] (-) TimerEvent: {}
+[35.563346] (-) TimerEvent: {}
+[35.665207] (-) TimerEvent: {}
+[35.766186] (-) TimerEvent: {}
+[35.867025] (-) TimerEvent: {}
+[35.968636] (-) TimerEvent: {}
+[36.069640] (-) TimerEvent: {}
+[36.170663] (-) TimerEvent: {}
+[36.272338] (-) TimerEvent: {}
+[36.372925] (-) TimerEvent: {}
+[36.473363] (-) TimerEvent: {}
+[36.574110] (-) TimerEvent: {}
+[36.662095] (cpp_topic) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable cpp_pub_spiral\x1b[0m\n'}
+[36.674451] (-) TimerEvent: {}
+[36.776193] (-) TimerEvent: {}
+[36.877390] (-) TimerEvent: {}
+[36.979463] (-) TimerEvent: {}
+[37.081464] (-) TimerEvent: {}
+[37.183678] (-) TimerEvent: {}
+[37.285789] (-) TimerEvent: {}
+[37.387535] (-) TimerEvent: {}
+[37.488704] (-) TimerEvent: {}
+[37.590410] (-) TimerEvent: {}
+[37.693052] (-) TimerEvent: {}
+[37.794638] (-) TimerEvent: {}
+[37.896048] (-) TimerEvent: {}
+[37.996917] (-) TimerEvent: {}
+[38.097978] (-) TimerEvent: {}
+[38.199332] (-) TimerEvent: {}
+[38.299969] (-) TimerEvent: {}
+[38.401590] (-) TimerEvent: {}
+[38.503317] (-) TimerEvent: {}
+[38.520254] (cpp_topic) StdoutLine: {'line': b'[ 75%] Built target cpp_pub_spiral\n'}
+[38.523523] (cpp_topic) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[38.534520] (cpp_topic) CommandEnded: {'returncode': 2}
+[38.603888] (-) TimerEvent: {}
+[38.707507] (-) TimerEvent: {}
+[38.809900] (-) TimerEvent: {}
+[38.911075] (-) TimerEvent: {}
+[39.012096] (-) TimerEvent: {}
+[39.115525] (-) TimerEvent: {}
+[39.218548] (-) TimerEvent: {}
+[39.321086] (-) TimerEvent: {}
+[39.422705] (-) TimerEvent: {}
+[39.514506] (cpp_topic) JobEnded: {'identifier': 'cpp_topic', 'rc': 2}
+[39.516520] (-) EventReactorShutdown: {}

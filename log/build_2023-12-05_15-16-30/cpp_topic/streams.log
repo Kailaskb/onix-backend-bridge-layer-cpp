@@ -1,0 +1,100 @@
+[0.178s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+[0.198s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.215s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.359s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.366s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.392s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.395s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.481s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.527s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.528s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.663s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.695s] -- Found onix_backend_messages: 1.0.0 (/home/xcy/ros2_ws3/install/onix_backend_messages/share/onix_backend_messages/cmake)
+[0.754s] -- Configuring done
+[0.761s] -- Generating done
+[0.762s] -- Build files have been written to: /home/xcy/ros2_ws/build/cpp_topic
+[0.785s] [35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[0.809s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[2.169s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In member function ‘[01m[Kvoid CombinedSubscriber::timer_callback()[m[K’:
+[2.169s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:152:70:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Konix_backend_messages::msg::StatusData_<std::allocator<void> >::_steer_angles_type[m[K’ {aka ‘[01m[Kstd::vector<float>[m[K’} and ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type[m[K’ {aka ‘[01m[Kfloat[m[K’})
+[2.169s]   152 |         status_data_msg.steer_angles = g_combined_data.steer_angles[0[01;31m[K][m[K;
+[2.169s]       |                                                                      [01;31m[K^[m[K
+[2.169s] In file included from [01m[K/usr/include/c++/9/vector:72[m[K,
+[2.169s]                  from [01m[K/usr/include/c++/9/functional:62[m[K,
+[2.169s]                  from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+[2.169s]                  from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+[2.170s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:18[m[K,
+[2.170s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.170s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.170s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.170s]                  from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:3[m[K:
+[2.170s] [01m[K/usr/include/c++/9/bits/vector.tcc:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = float; _Alloc = std::allocator<float>][m[K’
+[2.170s]   198 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+[2.170s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.170s] [01m[K/usr/include/c++/9/bits/vector.tcc:199:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type[m[K’ {aka ‘[01m[Kfloat[m[K’} to ‘[01m[Kconst std::vector<float>&[m[K’
+[2.170s]   199 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+[2.171s]       |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.171s] In file included from [01m[K/usr/include/c++/9/vector:67[m[K,
+[2.171s]                  from [01m[K/usr/include/c++/9/functional:62[m[K,
+[2.171s]                  from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+[2.171s]                  from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+[2.171s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:18[m[K,
+[2.171s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.171s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.171s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.171s]                  from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:3[m[K:
+[2.172s] [01m[K/usr/include/c++/9/bits/stl_vector.h:706:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = float; _Alloc = std::allocator<float>][m[K’
+[2.172s]   706 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+[2.172s]       |       [01;36m[K^~~~~~~~[m[K
+[2.172s] [01m[K/usr/include/c++/9/bits/stl_vector.h:706:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type[m[K’ {aka ‘[01m[Kfloat[m[K’} to ‘[01m[Kstd::vector<float>&&[m[K’
+[2.172s]   706 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+[2.172s]       |                 [01;36m[K~~~~~~~~~^~~[m[K
+[2.172s] [01m[K/usr/include/c++/9/bits/stl_vector.h:727:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = float; _Alloc = std::allocator<float>][m[K’
+[2.172s]   727 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+[2.172s]       |       [01;36m[K^~~~~~~~[m[K
+[2.172s] [01m[K/usr/include/c++/9/bits/stl_vector.h:727:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type[m[K’ {aka ‘[01m[Kfloat[m[K’} to ‘[01m[Kstd::initializer_list<float>[m[K’
+[2.173s]   727 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+[2.173s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.173s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:153:74:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Konix_backend_messages::msg::StatusData_<std::allocator<void> >::_r_steer_angles_type[m[K’ {aka ‘[01m[Kstd::vector<float>[m[K’} and ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type[m[K’ {aka ‘[01m[Kfloat[m[K’})
+[2.173s]   153 |         status_data_msg.r_steer_angles = g_combined_data.r_steer_angles[0[01;31m[K][m[K;
+[2.173s]       |                                                                          [01;31m[K^[m[K
+[2.173s] In file included from [01m[K/usr/include/c++/9/vector:72[m[K,
+[2.173s]                  from [01m[K/usr/include/c++/9/functional:62[m[K,
+[2.173s]                  from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+[2.173s]                  from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+[2.173s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:18[m[K,
+[2.174s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.174s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.174s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.174s]                  from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:3[m[K:
+[2.174s] [01m[K/usr/include/c++/9/bits/vector.tcc:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = float; _Alloc = std::allocator<float>][m[K’
+[2.174s]   198 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+[2.174s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.174s] [01m[K/usr/include/c++/9/bits/vector.tcc:199:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type[m[K’ {aka ‘[01m[Kfloat[m[K’} to ‘[01m[Kconst std::vector<float>&[m[K’
+[2.174s]   199 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+[2.174s]       |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.175s] In file included from [01m[K/usr/include/c++/9/vector:67[m[K,
+[2.175s]                  from [01m[K/usr/include/c++/9/functional:62[m[K,
+[2.175s]                  from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+[2.175s]                  from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+[2.175s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:18[m[K,
+[2.175s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.175s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.175s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.175s]                  from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:3[m[K:
+[2.175s] [01m[K/usr/include/c++/9/bits/stl_vector.h:706:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = float; _Alloc = std::allocator<float>][m[K’
+[2.175s]   706 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+[2.176s]       |       [01;36m[K^~~~~~~~[m[K
+[2.176s] [01m[K/usr/include/c++/9/bits/stl_vector.h:706:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type[m[K’ {aka ‘[01m[Kfloat[m[K’} to ‘[01m[Kstd::vector<float>&&[m[K’
+[2.176s]   706 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+[2.176s]       |                 [01;36m[K~~~~~~~~~^~~[m[K
+[2.176s] [01m[K/usr/include/c++/9/bits/stl_vector.h:727:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = float; _Alloc = std::allocator<float>][m[K’
+[2.176s]   727 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+[2.176s]       |       [01;36m[K^~~~~~~~[m[K
+[2.176s] [01m[K/usr/include/c++/9/bits/stl_vector.h:727:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type[m[K’ {aka ‘[01m[Kfloat[m[K’} to ‘[01m[Kstd::initializer_list<float>[m[K’
+[2.176s]   727 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+[2.176s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.870s] make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+[4.870s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+[4.870s] make: *** [Makefile:141: all] Error 2
+[4.872s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8

@@ -1,0 +1,67 @@
+[0.119s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+[0.156s] [35m[1mScanning dependencies of target robot_motion_pub[0m
+[0.174s] [ 75%] Built target cpp_sub_spiral
+[0.174s] [ 75%] Built target cpp_pub_spiral
+[0.175s] [ 75%] Built target robot_motion_sub
+[0.189s] [ 87%] [32mBuilding CXX object CMakeFiles/robot_motion_pub.dir/src/robot_motion_pub.cpp.o[0m
+[1.541s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:25:59:[m[K [01;31m[Kerror: [m[K‘[01m[Klocation_informations[m[K’ in namespace ‘[01m[Konix_backend_messages::msg[m[K’ does not name a type; did you mean ‘[01m[KLocationInformations[m[K’?
+[1.541s]    25 |     void topic_callback(const onix_backend_messages::msg::[01;31m[Klocation_informations[m[K::SharedPtr msg)
+[1.541s]       |                                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.541s]       |                                                           [32m[KLocationInformations[m[K
+[1.541s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:25:92:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+[1.541s]    25 |     void topic_callback(const onix_backend_messages::msg::location_informations::SharedPtr [01;31m[Kmsg[m[K)
+[1.541s]       |                                                                                            [01;31m[K^~~[m[K
+[1.541s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:25:91:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[1.541s]    25 |     void topic_callback[34m[K([m[Kconst onix_backend_messages::msg::location_informations::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K)
+[1.541s]       |                        [34m[K~[m[K                                                                  [01;31m[K^[m[K[32m[K~~~[m[K
+[1.542s]       |                                                                                           [32m[K)[m[K
+[1.542s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:25:82:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.542s]    25 |     void topic_callback(const onix_backend_messages::msg::location_informations::[01;31m[KSharedPtr[m[K msg)
+[1.542s]       |                                                                                  [01;31m[K^~~~~~~~~[m[K
+[1.542s]       |                                                                                           [32m[K;[m[K
+[1.542s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:25:92:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+[1.542s]    25 |     void topic_callback(const onix_backend_messages::msg::location_informations::SharedPtr [01;31m[Kmsg[m[K)
+[1.542s]       |                                                                                            [01;31m[K^~~[m[K
+[1.542s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:47:54:[m[K [01;31m[Kerror: [m[K‘[01m[Klocation_informations[m[K’ is not a member of ‘[01m[Konix_backend_messages::msg[m[K’; did you mean ‘[01m[KLocationInformations[m[K’?
+[1.542s]    47 |     rclcpp::Subscription<onix_backend_messages::msg::[01;31m[Klocation_informations[m[K>::SharedPtr subscription_;
+[1.542s]       |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.542s]       |                                                      [32m[KLocationInformations[m[K
+[1.542s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:47:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.542s]    47 |     rclcpp::Subscription<onix_backend_messages::msg::location_informations[01;31m[K>[m[K::SharedPtr subscription_;
+[1.543s]       |                                                                           [01;31m[K^[m[K
+[1.543s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:47:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[1.543s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:47:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.543s]    47 |     rclcpp::Subscription<onix_backend_messages::msg::location_informations>::[01;31m[KSharedPtr[m[K subscription_;
+[1.543s]       |                                                                              [01;31m[K^~~~~~~~~[m[K
+[1.543s]       |                                                                                       [32m[K;[m[K
+[1.544s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:47:88:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[1.544s]    47 |     rclcpp::Subscription<onix_backend_messages::msg::location_informations>::SharedPtr [01;31m[Ksubscription_[m[K;
+[1.544s]       |                                                                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[1.544s]       |                                                                                        [32m[Krcl_subscription_t[m[K
+[1.553s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:[m[K In constructor ‘[01m[KStatusDataPublisher::StatusDataPublisher()[m[K’:
+[1.553s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[1.553s]    13 |         [01;31m[Ksubscription_[m[K = this->create_subscription<onix_backend_messages::msg::location_informations>(
+[1.553s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[1.553s]       |         [32m[Krcl_subscription_t[m[K
+[1.553s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:13:79:[m[K [01;31m[Kerror: [m[K‘[01m[Klocation_informations[m[K’ is not a member of ‘[01m[Konix_backend_messages::msg[m[K’; did you mean ‘[01m[KLocationInformations[m[K’?
+[1.553s]    13 |         subscription_ = this->create_subscription<onix_backend_messages::msg::[01;31m[Klocation_informations[m[K>(
+[1.553s]       |                                                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.553s]       |                                                                               [32m[KLocationInformations[m[K
+[1.559s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:14:103:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KStatusDataPublisher::create_subscription<<expression error> >(const char [7], int, std::_Bind_helper<false, void (StatusDataPublisher::*)(...), StatusDataPublisher*, const std::_Placeholder<1>&>::type)[m[K’
+[1.559s]    14 |             "motion", 10, std::bind(&StatusDataPublisher::topic_callback, this, std::placeholders::_1)[01;31m[K)[m[K;
+[1.559s]       |                                                                                                       [01;31m[K^[m[K
+[1.559s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.559s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.560s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.560s]                  from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:2[m[K:
+[1.560s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[1.560s]   213 |   [01;36m[Kcreate_subscription[m[K(
+[1.560s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.560s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.560s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:14:103:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.560s]    14 |             "motion", 10, std::bind(&StatusDataPublisher::topic_callback, this, std::placeholders::_1)[01;31m[K)[m[K;
+[1.560s]       |                                                                                                       [01;31m[K^[m[K
+[2.340s] make[2]: *** [CMakeFiles/robot_motion_pub.dir/build.make:63: CMakeFiles/robot_motion_pub.dir/src/robot_motion_pub.cpp.o] Error 1
+[2.340s] make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/robot_motion_pub.dir/all] Error 2
+[2.340s] make: *** [Makefile:141: all] Error 2
+[2.342s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8

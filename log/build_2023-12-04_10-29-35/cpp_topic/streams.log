@@ -1,0 +1,58 @@
+[0.203s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws2/install/py_srvcli:/opt/ros/foxy /usr/bin/cmake /home/xcy/ros2_ws/src/cpp_topic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xcy/ros2_ws/install/cpp_topic
+[0.395s] -- The C compiler identification is GNU 9.4.0
+[0.464s] -- The CXX compiler identification is GNU 9.4.0
+[0.471s] -- Check for working C compiler: /usr/bin/cc
+[0.535s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.538s] -- Detecting C compiler ABI info
+[0.602s] -- Detecting C compiler ABI info - done
+[0.614s] -- Detecting C compile features
+[0.614s] -- Detecting C compile features - done
+[0.617s] -- Check for working CXX compiler: /usr/bin/c++
+[0.686s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.688s] -- Detecting CXX compiler ABI info
+[0.772s] -- Detecting CXX compiler ABI info - done
+[0.784s] -- Detecting CXX compile features
+[0.785s] -- Detecting CXX compile features - done
+[0.787s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.817s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.817s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.982s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.007s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.080s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.086s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.150s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.171s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.237s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.299s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.302s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.304s] -- Looking for pthread.h
+[1.370s] -- Looking for pthread.h - found
+[1.370s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.444s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.445s] -- Looking for pthread_create in pthreads
+[1.509s] -- Looking for pthread_create in pthreads - not found
+[1.509s] -- Looking for pthread_create in pthread
+[1.581s] -- Looking for pthread_create in pthread - found
+[1.582s] -- Found Threads: TRUE  
+[1.745s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.782s] CMake Error at CMakeLists.txt:16 (find_package):
+[1.782s]   By not providing "Findonix_backend_messages.cmake" in CMAKE_MODULE_PATH
+[1.782s]   this project has asked CMake to find a package configuration file provided
+[1.782s]   by "onix_backend_messages", but CMake did not find one.
+[1.782s] 
+[1.782s]   Could not find a package configuration file provided by
+[1.782s]   "onix_backend_messages" with any of the following names:
+[1.783s] 
+[1.783s]     onix_backend_messagesConfig.cmake
+[1.783s]     onix_backend_messages-config.cmake
+[1.783s] 
+[1.783s]   Add the installation prefix of "onix_backend_messages" to CMAKE_PREFIX_PATH
+[1.783s]   or set "onix_backend_messages_DIR" to a directory containing one of the
+[1.783s]   above files.  If "onix_backend_messages" provides a separate development
+[1.783s]   package or SDK, be sure it has been installed.
+[1.783s] 
+[1.783s] 
+[1.783s] -- Configuring incomplete, errors occurred!
+[1.783s] See also "/home/xcy/ros2_ws/build/cpp_topic/CMakeFiles/CMakeOutput.log".
+[1.784s] See also "/home/xcy/ros2_ws/build/cpp_topic/CMakeFiles/CMakeError.log".
+[1.791s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws2/install/py_srvcli:/opt/ros/foxy /usr/bin/cmake /home/xcy/ros2_ws/src/cpp_topic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xcy/ros2_ws/install/cpp_topic

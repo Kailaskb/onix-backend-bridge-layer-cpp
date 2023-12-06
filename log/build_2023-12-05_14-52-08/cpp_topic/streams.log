@@ -1,0 +1,33 @@
+[0.180s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+[0.212s] [35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[0.236s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[1.499s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:42:11:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kfloat CombinedData::total_time[m[K’
+[1.499s]    42 |     float [01;31m[Ktotal_time[m[K;
+[1.499s]       |           [01;31m[K^~~~~~~~~~[m[K
+[1.499s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:16:13:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint64_t CombinedData::total_time[m[K’
+[1.499s]    16 |     int64_t [01;36m[Ktotal_time[m[K;
+[1.499s]       |             [01;36m[K^~~~~~~~~~[m[K
+[1.564s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:[m[K In member function ‘[01m[Kvoid CombinedSubscriber::timer_callback()[m[K’:
+[1.564s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:145:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksteer[m[K’; did you mean ‘[01m[Kr_steer[m[K’?
+[1.564s]   145 |         status_data_msg.[01;31m[Ksteer[m[K = g_combined_data.steer;
+[1.564s]       |                         [01;31m[K^~~~~[m[K
+[1.564s]       |                         [32m[Kr_steer[m[K
+[1.564s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:152:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksteer_angles[m[K’; did you mean ‘[01m[Ksteer_angle[m[K’?
+[1.564s]   152 |         status_data_msg.[01;31m[Ksteer_angles[m[K = g_combined_data.steer_angles;
+[1.565s]       |                         [01;31m[K^~~~~~~~~~~~[m[K
+[1.565s]       |                         [32m[Ksteer_angle[m[K
+[1.565s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:153:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kr_steer_angles[m[K’; did you mean ‘[01m[Kr_steer_angle[m[K’?
+[1.565s]   153 |         status_data_msg.[01;31m[Kr_steer_angles[m[K = g_combined_data.r_steer_angles;
+[1.565s]       |                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.565s]       |                         [32m[Kr_steer_angle[m[K
+[1.565s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:156:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktoday_odo[m[K’; did you mean ‘[01m[Ktodays_odo[m[K’?
+[1.565s]   156 |         status_data_msg.[01;31m[Ktoday_odo[m[K = g_combined_data.today_odo;
+[1.565s]       |                         [01;31m[K^~~~~~~~~[m[K
+[1.565s]       |                         [32m[Ktodays_odo[m[K
+[1.565s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_sub_spiral.cpp:157:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing StatusData = struct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct onix_backend_messages::msg::StatusData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kodom_time[m[K’
+[1.565s]   157 |         status_data_msg.[01;31m[Kodom_time[m[K = g_combined_data.odom_time;
+[1.565s]       |                         [01;31m[K^~~~~~~~~[m[K
+[4.235s] make[2]: *** [CMakeFiles/cpp_sub_spiral.dir/build.make:63: CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o] Error 1
+[4.236s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cpp_sub_spiral.dir/all] Error 2
+[4.236s] make: *** [Makefile:141: all] Error 2
+[4.238s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8

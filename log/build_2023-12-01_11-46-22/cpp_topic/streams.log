@@ -1,0 +1,38 @@
+[0.181s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+[0.216s] [35m[1mScanning dependencies of target robot_motion_sub[0m
+[0.216s] [35m[1mScanning dependencies of target cpp_sub_spiral[0m
+[0.236s] [ 33%] Built target cpp_pub_spiral
+[0.246s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_sub_spiral.dir/src/cpp_sub_spiral.cpp.o[0m
+[0.249s] [ 66%] [32mBuilding CXX object CMakeFiles/robot_motion_sub.dir/src/robot_motion_sub.cpp.o[0m
+[1.924s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.925s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.925s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.925s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.925s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.925s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.925s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.925s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.926s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.926s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.926s]                  from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_sub.cpp:2[m[K:
+[1.926s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(onix_backend_messages::msg::LocationInformations_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.926s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_sub.cpp:39:41:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[K((std::__shared_ptr_access<onix_backend_messages::msg::StatusData_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(&((MinimalSubscriber*)this)->MinimalSubscriber::status_data_msg_))->std::__shared_ptr_access<onix_backend_messages::msg::StatusData_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->onix_backend_messages::msg::StatusData_<std::allocator<void> >::x[m[K’, which is of non-class type ‘[01m[Konix_backend_messages::msg::StatusData_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kfloat[m[K’}
+[1.926s]    39 |                     status_data_msg_->x.[01;31m[Kc_str[m[K(), status_data_msg_->y.c_str(),
+[1.926s]       |                                         [01;31m[K^~~~~[m[K
+[1.926s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_sub.cpp:39:70:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[K((std::__shared_ptr_access<onix_backend_messages::msg::StatusData_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(&((MinimalSubscriber*)this)->MinimalSubscriber::status_data_msg_))->std::__shared_ptr_access<onix_backend_messages::msg::StatusData_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->onix_backend_messages::msg::StatusData_<std::allocator<void> >::y[m[K’, which is of non-class type ‘[01m[Konix_backend_messages::msg::StatusData_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kfloat[m[K’}
+[1.927s]    39 |                     status_data_msg_->x.c_str(), status_data_msg_->y.[01;31m[Kc_str[m[K(),
+[1.927s]       |                                                                      [01;31m[K^~~~~[m[K
+[1.927s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::timer_callback()[m[K’:
+[1.927s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_sub.cpp:55:41:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[K((std::__shared_ptr_access<onix_backend_messages::msg::StatusData_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(&((MinimalSubscriber*)this)->MinimalSubscriber::status_data_msg_))->std::__shared_ptr_access<onix_backend_messages::msg::StatusData_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->onix_backend_messages::msg::StatusData_<std::allocator<void> >::x[m[K’, which is of non-class type ‘[01m[Konix_backend_messages::msg::StatusData_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kfloat[m[K’}
+[1.927s]    55 |                     status_data_msg_->x.[01;31m[Kc_str[m[K(), status_data_msg_->y.c_str(),
+[1.927s]       |                                         [01;31m[K^~~~~[m[K
+[1.927s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_sub.cpp:55:70:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[K((std::__shared_ptr_access<onix_backend_messages::msg::StatusData_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(&((MinimalSubscriber*)this)->MinimalSubscriber::status_data_msg_))->std::__shared_ptr_access<onix_backend_messages::msg::StatusData_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->onix_backend_messages::msg::StatusData_<std::allocator<void> >::y[m[K’, which is of non-class type ‘[01m[Konix_backend_messages::msg::StatusData_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kfloat[m[K’}
+[1.927s]    55 |                     status_data_msg_->x.c_str(), status_data_msg_->y.[01;31m[Kc_str[m[K(),
+[1.928s]       |                                                                      [01;31m[K^~~~~[m[K
+[3.409s] make[2]: *** [CMakeFiles/robot_motion_sub.dir/build.make:63: CMakeFiles/robot_motion_sub.dir/src/robot_motion_sub.cpp.o] Error 1
+[3.409s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/robot_motion_sub.dir/all] Error 2
+[3.409s] make[1]: *** Waiting for unfinished jobs....
+[6.147s] [ 83%] [32m[1mLinking CXX executable cpp_sub_spiral[0m
+[6.396s] [ 83%] Built target cpp_sub_spiral
+[6.397s] make: *** [Makefile:141: all] Error 2
+[6.400s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8

@@ -1,0 +1,29 @@
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_sub.cpp:2[m[K:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(onix_backend_messages::msg::LocationInformations_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_sub.cpp:39:41:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[K((std::__shared_ptr_access<onix_backend_messages::msg::StatusData_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(&((MinimalSubscriber*)this)->MinimalSubscriber::status_data_msg_))->std::__shared_ptr_access<onix_backend_messages::msg::StatusData_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->onix_backend_messages::msg::StatusData_<std::allocator<void> >::x[m[K’, which is of non-class type ‘[01m[Konix_backend_messages::msg::StatusData_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kfloat[m[K’}
+   39 |                     status_data_msg_->x.[01;31m[Kc_str[m[K(), status_data_msg_->y.c_str(),
+      |                                         [01;31m[K^~~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_sub.cpp:39:70:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[K((std::__shared_ptr_access<onix_backend_messages::msg::StatusData_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(&((MinimalSubscriber*)this)->MinimalSubscriber::status_data_msg_))->std::__shared_ptr_access<onix_backend_messages::msg::StatusData_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->onix_backend_messages::msg::StatusData_<std::allocator<void> >::y[m[K’, which is of non-class type ‘[01m[Konix_backend_messages::msg::StatusData_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kfloat[m[K’}
+   39 |                     status_data_msg_->x.c_str(), status_data_msg_->y.[01;31m[Kc_str[m[K(),
+      |                                                                      [01;31m[K^~~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::timer_callback()[m[K’:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_sub.cpp:55:41:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[K((std::__shared_ptr_access<onix_backend_messages::msg::StatusData_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(&((MinimalSubscriber*)this)->MinimalSubscriber::status_data_msg_))->std::__shared_ptr_access<onix_backend_messages::msg::StatusData_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->onix_backend_messages::msg::StatusData_<std::allocator<void> >::x[m[K’, which is of non-class type ‘[01m[Konix_backend_messages::msg::StatusData_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kfloat[m[K’}
+   55 |                     status_data_msg_->x.[01;31m[Kc_str[m[K(), status_data_msg_->y.c_str(),
+      |                                         [01;31m[K^~~~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_sub.cpp:55:70:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[K((std::__shared_ptr_access<onix_backend_messages::msg::StatusData_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(&((MinimalSubscriber*)this)->MinimalSubscriber::status_data_msg_))->std::__shared_ptr_access<onix_backend_messages::msg::StatusData_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->onix_backend_messages::msg::StatusData_<std::allocator<void> >::y[m[K’, which is of non-class type ‘[01m[Konix_backend_messages::msg::StatusData_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kfloat[m[K’}
+   55 |                     status_data_msg_->x.c_str(), status_data_msg_->y.[01;31m[Kc_str[m[K(),
+      |                                                                      [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/robot_motion_sub.dir/build.make:63: CMakeFiles/robot_motion_sub.dir/src/robot_motion_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/robot_motion_sub.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

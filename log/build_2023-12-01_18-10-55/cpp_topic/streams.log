@@ -1,0 +1,13 @@
+[0.224s] Invoking command in '/home/xcy/ros2_ws/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8
+[0.270s] [35m[1mScanning dependencies of target cpp_pub_spiral[0m
+[0.291s] [ 66%] Built target robot_motion_sub
+[0.292s] [ 50%] Built target cpp_sub_spiral
+[0.310s] [ 83%] [32mBuilding CXX object CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o[0m
+[0.419s] [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/cpp_pub_spiral.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kcpp_sub_spiral/CombinedData: No such file or directory
+[0.419s]     5 | #include [01;31m[K"cpp_sub_spiral/CombinedData"[m[K
+[0.419s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.420s] compilation terminated.
+[0.423s] make[2]: *** [CMakeFiles/cpp_pub_spiral.dir/build.make:63: CMakeFiles/cpp_pub_spiral.dir/src/cpp_pub_spiral.cpp.o] Error 1
+[0.423s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/cpp_pub_spiral.dir/all] Error 2
+[0.423s] make: *** [Makefile:141: all] Error 2
+[0.426s] Invoked command in '/home/xcy/ros2_ws/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xcy/ros2_ws3/install/py_topic:/opt/ros/foxy /usr/bin/cmake --build /home/xcy/ros2_ws/build/cpp_topic -- -j8 -l8

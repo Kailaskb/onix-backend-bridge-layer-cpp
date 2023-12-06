@@ -1,0 +1,60 @@
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:25:59:[m[K [01;31m[Kerror: [m[K‘[01m[Klocation_informations[m[K’ in namespace ‘[01m[Konix_backend_messages::msg[m[K’ does not name a type; did you mean ‘[01m[KLocationInformations[m[K’?
+   25 |     void topic_callback(const onix_backend_messages::msg::[01;31m[Klocation_informations[m[K::SharedPtr msg)
+      |                                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                           [32m[KLocationInformations[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:25:92:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   25 |     void topic_callback(const onix_backend_messages::msg::location_informations::SharedPtr [01;31m[Kmsg[m[K)
+      |                                                                                            [01;31m[K^~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:25:91:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   25 |     void topic_callback[34m[K([m[Kconst onix_backend_messages::msg::location_informations::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K)
+      |                        [34m[K~[m[K                                                                  [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                                           [32m[K)[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:25:82:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   25 |     void topic_callback(const onix_backend_messages::msg::location_informations::[01;31m[KSharedPtr[m[K msg)
+      |                                                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                                                           [32m[K;[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:25:92:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   25 |     void topic_callback(const onix_backend_messages::msg::location_informations::SharedPtr [01;31m[Kmsg[m[K)
+      |                                                                                            [01;31m[K^~~[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:47:54:[m[K [01;31m[Kerror: [m[K‘[01m[Klocation_informations[m[K’ is not a member of ‘[01m[Konix_backend_messages::msg[m[K’; did you mean ‘[01m[KLocationInformations[m[K’?
+   47 |     rclcpp::Subscription<onix_backend_messages::msg::[01;31m[Klocation_informations[m[K>::SharedPtr subscription_;
+      |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                      [32m[KLocationInformations[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:47:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   47 |     rclcpp::Subscription<onix_backend_messages::msg::location_informations[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                                                           [01;31m[K^[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:47:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:47:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   47 |     rclcpp::Subscription<onix_backend_messages::msg::location_informations>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                                              [01;31m[K^~~~~~~~~[m[K
+      |                                                                                       [32m[K;[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:47:88:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   47 |     rclcpp::Subscription<onix_backend_messages::msg::location_informations>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                                                        [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                                                        [32m[Krcl_subscription_t[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:[m[K In constructor ‘[01m[KStatusDataPublisher::StatusDataPublisher()[m[K’:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   13 |         [01;31m[Ksubscription_[m[K = this->create_subscription<onix_backend_messages::msg::location_informations>(
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Krcl_subscription_t[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:13:79:[m[K [01;31m[Kerror: [m[K‘[01m[Klocation_informations[m[K’ is not a member of ‘[01m[Konix_backend_messages::msg[m[K’; did you mean ‘[01m[KLocationInformations[m[K’?
+   13 |         subscription_ = this->create_subscription<onix_backend_messages::msg::[01;31m[Klocation_informations[m[K>(
+      |                                                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                               [32m[KLocationInformations[m[K
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:14:103:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KStatusDataPublisher::create_subscription<<expression error> >(const char [7], int, std::_Bind_helper<false, void (StatusDataPublisher::*)(...), StatusDataPublisher*, const std::_Placeholder<1>&>::type)[m[K’
+   14 |             "motion", 10, std::bind(&StatusDataPublisher::topic_callback, this, std::placeholders::_1)[01;31m[K)[m[K;
+      |                                                                                                       [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:2[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  213 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/xcy/ros2_ws/src/cpp_topic/src/robot_motion_pub.cpp:14:103:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   14 |             "motion", 10, std::bind(&StatusDataPublisher::topic_callback, this, std::placeholders::_1)[01;31m[K)[m[K;
+      |                                                                                                       [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/robot_motion_pub.dir/build.make:63: CMakeFiles/robot_motion_pub.dir/src/robot_motion_pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/robot_motion_pub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
