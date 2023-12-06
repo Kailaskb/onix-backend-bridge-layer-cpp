@@ -14,7 +14,7 @@ source install/setup.bash
 ```
 ros2 run cpp_topic cpp_pub_spiral 
 ```
+> source the ros layer ws before running the file
 ```
-source the ros layer ws before running the file
 soure path_to_ros_layer/install/setup.bash
 ```
